@@ -2,6 +2,15 @@ from requests import get
 import json
 import csv
 import time
+from datetime import datetime
+
+f = open("data/log.txt", "a")
+
+
+def log(date, msg):
+    print(str(date) + " -> " + msg)
+    f.write(str(date) + " -> " + msg + "\n")
+
 
 pages = 10
 skills = ["magic", "fletching", "woodcutting", "firemaking", "construction", "farming", "herblore", "thieving",
@@ -44,13 +53,18 @@ hdr = {
 
 url = str(base_url) + str(json.dumps(query).replace(" ", ""))
 
-print(url)
+timestamp = time.time()
 
-response = get(url, headers=hdr)
+dt = datetime.fromtimestamp(timestamp)
 
-if response.text.__contains__("-4"):
-    print("API currently unavailable")
-    exit(-4)
+response = "-4"
+
+while "-4" in response:
+    response = get(url, headers=hdr)
+    log(dt, "API currently unavailable. Trying again in 20s")
+    time.sleep(20)
+
+log(dt, "Successfully retrieved data")
 
 
 def subtract(d1, d2):
@@ -64,8 +78,6 @@ def subtract(d1, d2):
 def average(lst):
     return sum(lst) / len(lst)
 
-
-timestamp = time.time()
 
 groupNum = 0
 skillIndex = -1
@@ -104,6 +116,9 @@ for line in response.text.splitlines():
         allPlayers[line.split(",")[0]] = line.split(",")[1]
 
 
+log(dt, "Finished retrieving data for XP")
+
+
 def create_list(*args):
     lst = []
     for each in args:
@@ -140,6 +155,8 @@ for itemID in itemIDList:
     elif itemID in ores:
         orePrices.append(price)
 
+
+log(dt, "Finished retrieving data for items")
 
 def write_to_csv(filename, data):
     with open('data/{}_data.csv'.format(filename), mode='a', newline='') as GE_data:
