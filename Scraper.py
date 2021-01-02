@@ -19,7 +19,6 @@ query = [{"type": "currenttop", "timeperiod": "day", "skill": "runecrafting", "f
           "count": ""}]
 query[0]["count"] = str(count)
 
-
 for skill in skills:
     query = append_page_nums(query)
 
@@ -66,6 +65,8 @@ def average(lst):
     return sum(lst) / len(lst)
 
 
+timestamp = time.time()
+
 groupNum = 0
 skillIndex = -1
 
@@ -85,7 +86,7 @@ for line in response.text.splitlines():
             readingIronman = True
             vanilla_players = subtract(allPlayers, ironmanPlayers)
             xp_list = [int(i) for i in vanilla_players.values()]
-            #print(str(skillIndex) + ": " + str(len(vanilla_players)))
+            # print(str(skillIndex) + ": " + str(len(vanilla_players)))
             if skillIndex == -1:
                 xp_averages["runecrafting"] = average(xp_list)
             else:
@@ -102,36 +103,53 @@ for line in response.text.splitlines():
     else:
         allPlayers[line.split(",")[0]] = line.split(",")[1]
 
-#print(xp_averages)
+
+def create_list(*args):
+    lst = []
+    for each in args:
+        lst.extend(each)
+    return lst
+
+
+runes = list(range(554, 567, 1))  # Runes
+logs = [1511, 1513, 1515, 1517, 1519, 1521]
+seeds = create_list(list(range(5096, 5107, 1)), list(range(5280, 5317, 1)), list(range(5318, 5325, 1)))
+ores = [436, 438, 440, 442, 444, 447, 449, 451]
+
+itemIDList = create_list(runes, logs, seeds, ores)
+
 timestamp = time.time()
 
+runePrices = [timestamp]
+logPrices = [timestamp]
+seedPrices = [timestamp]
+orePrices = [timestamp]
+
+for itemID in itemIDList:
+    url = 'http://services.runescape.com/m=itemdb_oldschool/api/graph/{}.json'.format(itemID)
+    r = get(url, headers=hdr)
+    json_data = json.loads(r.text)
+    price = list(json_data["daily"].items())[-1][1]
+
+    if itemID in runes:
+        runePrices.append(price)
+    elif itemID in logs:
+        logPrices.append(price)
+    elif itemID in seeds:
+        seedPrices.append(price)
+    elif itemID in ores:
+        orePrices.append(price)
 
 
+def write_to_csv(filename, data):
+    with open('data/{}_data.csv'.format(filename), mode='a', newline='') as GE_data:
+        GE_writer = csv.writer(GE_data, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        GE_writer.writerow(data)
 
 
+write_to_csv('Rune', runePrices)
+write_to_csv('Log', logPrices)
+write_to_csv('Seed', seedPrices)
+write_to_csv('Ore', orePrices)
+write_to_csv('XP', [timestamp] + list(xp_averages.values()))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-with open('data/XP_data.csv', mode='a', newline='') as XP_data:
-    XP_writer = csv.writer(XP_data, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    values = [timestamp]
-    values.extend(xp_averages.values())
-    XP_writer.writerow(values)  # write field names
