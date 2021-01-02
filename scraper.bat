@@ -1,0 +1,2 @@
+python Scraper.py %*
+pause 

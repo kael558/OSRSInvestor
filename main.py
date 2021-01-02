@@ -1,8 +1,7 @@
-import requests
-import json
-import csv
 
+print("Hello World!!!")
 
+'''
 csvName = 'Rune_Data'
 
 # get more item codes here: https://everythingrs.com/tools/osrs/itemlist/238
@@ -56,3 +55,4 @@ with open('data/{}.csv'.format(csvName), mode='w', newline='') as GE_data:
         new_array.extend(fullDict[daily_timestamp])
         # print(new_array)
         GE_writer.writerow(new_array)
+'''

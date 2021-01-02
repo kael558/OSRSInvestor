@@ -1,0 +1,4 @@
+2021-01-02 16:30:00.251075 -> API currently unavailable. Trying again in 20s
+2021-01-02 16:30:00.251075 -> Successfully retrieved data
+2021-01-02 16:30:00.251075 -> Finished retrieving data for XP
+2021-01-02 16:30:00.251075 -> Finished retrieving data for items
