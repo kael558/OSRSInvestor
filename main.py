@@ -2,6 +2,7 @@ import requests
 import json
 import csv
 
+
 csvName = 'Rune_Data'
 
 # get more item codes here: https://everythingrs.com/tools/osrs/itemlist/238
