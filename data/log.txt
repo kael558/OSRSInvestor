@@ -2,3 +2,13 @@
 2021-01-02 16:30:00.251075 -> Successfully retrieved data
 2021-01-02 16:30:00.251075 -> Finished retrieving data for XP
 2021-01-02 16:30:00.251075 -> Finished retrieving data for items
+2021-01-03 00:01:36.825825 -> API currently unavailable. Trying again in 20s
+2021-01-03 00:01:36.825825 -> Successfully retrieved data
+2021-01-03 00:06:14.946664 -> API currently unavailable. Trying again in 20s
+2021-01-03 00:06:14.946664 -> Successfully retrieved data
+2021-01-03 00:06:14.946664 -> Finished retrieving data for XP
+2021-01-03 00:06:14.946664 -> Finished retrieving data for items
+2021-01-03 12:02:55.862633 -> API currently unavailable. Trying again in 20s
+2021-01-03 12:02:55.862633 -> Successfully retrieved data
+2021-01-03 12:02:55.862633 -> Finished retrieving data for XP
+2021-01-03 12:02:55.862633 -> Finished retrieving data for items

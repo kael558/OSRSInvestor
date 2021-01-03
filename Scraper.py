@@ -64,7 +64,7 @@ while "-4" in response:
     log(dt, "API currently unavailable. Trying again in 20s")
     time.sleep(20)
 
-log(dt, "Successfully retrieved data")
+log(dt, "Successfully pulled data")
 
 
 def subtract(d1, d2):
@@ -90,33 +90,35 @@ readingIronman = True
 xp_averages = {}
 
 for line in response.text.splitlines():
-    if line == "":
-        continue
-    elif line == "~~":
-        groupNum += 1
-        if groupNum % (2 * pages) == 0 and groupNum != 0:
-            readingIronman = True
-            vanilla_players = subtract(allPlayers, ironmanPlayers)
-            xp_list = [int(i) for i in vanilla_players.values()]
-            # print(str(skillIndex) + ": " + str(len(vanilla_players)))
-            if skillIndex == -1:
-                xp_averages["runecrafting"] = average(xp_list)
-            else:
-                xp_averages[skills[skillIndex]] = average(xp_list)
-            ironmanPlayers.clear()
-            allPlayers.clear()
-            skillIndex += 1
-        elif groupNum % pages == 0 and groupNum != 0:
-            readingIronman = False
-        continue
+    try:
+        if line == "":
+            continue
+        elif line == "~~":
+            groupNum += 1
+            if groupNum % (2 * pages) == 0 and groupNum != 0:
+                readingIronman = True
+                vanilla_players = subtract(allPlayers, ironmanPlayers)
+                xp_list = [int(i) for i in vanilla_players.values()]
+                # print(str(skillIndex) + ": " + str(len(vanilla_players)))
+                if skillIndex == -1:
+                    xp_averages["runecrafting"] = average(xp_list)
+                else:
+                    xp_averages[skills[skillIndex]] = average(xp_list)
+                ironmanPlayers.clear()
+                allPlayers.clear()
+                skillIndex += 1
+            elif groupNum % pages == 0 and groupNum != 0:
+                readingIronman = False
+            continue
 
-    if readingIronman:
-        ironmanPlayers[line.split(",")[0]] = line.split(",")[1]
-    else:
-        allPlayers[line.split(",")[0]] = line.split(",")[1]
+        if readingIronman:
+            ironmanPlayers[line.split(",")[0]] = line.split(",")[1]
+        else:
+            allPlayers[line.split(",")[0]] = line.split(",")[1]
+    except:
+        print(line)
 
-
-log(dt, "Finished retrieving data for XP")
+log(dt, "Finished parsing data for XP gainzzz")
 
 
 def create_list(*args):
@@ -131,32 +133,26 @@ logs = [1511, 1513, 1515, 1517, 1519, 1521]
 seeds = create_list(list(range(5096, 5107, 1)), list(range(5280, 5317, 1)), list(range(5318, 5325, 1)))
 ores = [436, 438, 440, 442, 444, 447, 449, 451]
 
-itemIDList = create_list(runes, logs, seeds, ores)
-
 timestamp = time.time()
 
-runePrices = [timestamp]
-logPrices = [timestamp]
-seedPrices = [timestamp]
-orePrices = [timestamp]
 
-for itemID in itemIDList:
-    url = 'http://services.runescape.com/m=itemdb_oldschool/api/graph/{}.json'.format(itemID)
-    r = get(url, headers=hdr)
-    json_data = json.loads(r.text)
-    price = list(json_data["daily"].items())[-1][1]
-
-    if itemID in runes:
-        runePrices.append(price)
-    elif itemID in logs:
-        logPrices.append(price)
-    elif itemID in seeds:
-        seedPrices.append(price)
-    elif itemID in ores:
-        orePrices.append(price)
+def get_item_prices(itemIDList):
+    prices = []
+    for itemID in itemIDList:
+        item_url = 'http://services.runescape.com/m=itemdb_oldschool/api/graph/{}.json'.format(itemID)
+        r = get(item_url, headers=hdr)
+        json_data = json.loads(r.text)
+        prices.append(list(json_data["daily"].items())[-1][1])
+    return prices
 
 
-log(dt, "Finished retrieving data for items")
+runePrices = [timestamp] + get_item_prices(runes)
+logPrices = [timestamp] + get_item_prices(logs)
+seedPrices = [timestamp] + get_item_prices(seeds)
+orePrices = [timestamp] + get_item_prices(ores)
+
+log(dt, "Finished parsing data for item prices")
+
 
 def write_to_csv(filename, data):
     with open('data/{}_data.csv'.format(filename), mode='a', newline='') as GE_data:
