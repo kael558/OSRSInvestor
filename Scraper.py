@@ -4,7 +4,7 @@ import csv
 import time
 from datetime import datetime
 
-f = open("data/log.txt", "a")
+f = open("C:/Users/Rahel/PycharmProjects/OSRSInvestor/data/log.txt", "a")
 
 
 def log(date, msg):
@@ -155,7 +155,7 @@ log(dt, "Finished parsing data for item prices")
 
 
 def write_to_csv(filename, data):
-    with open('data/{}_data.csv'.format(filename), mode='a', newline='') as GE_data:
+    with open('C:/Users/Rahel/PycharmProjects/OSRSInvestor/data/{}_data.csv'.format(filename), mode='a', newline='') as GE_data:
         GE_writer = csv.writer(GE_data, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         GE_writer.writerow(data)
 

@@ -12,3 +12,119 @@
 2021-01-03 12:02:55.862633 -> Successfully retrieved data
 2021-01-03 12:02:55.862633 -> Finished retrieving data for XP
 2021-01-03 12:02:55.862633 -> Finished retrieving data for items
+2021-01-04 00:01:17.887929 -> API currently unavailable. Trying again in 20s
+2021-01-04 00:01:17.887929 -> Successfully pulled data
+2021-01-04 00:01:17.887929 -> Finished parsing data for XP gainzzz
+2021-01-04 00:01:17.887929 -> Finished parsing data for item prices
+2021-01-04 12:00:28.247481 -> API currently unavailable. Trying again in 20s
+2021-01-04 12:00:28.247481 -> Successfully pulled data
+2021-01-04 12:00:28.247481 -> Finished parsing data for XP gainzzz
+2021-01-04 12:00:28.247481 -> Finished parsing data for item prices
+2021-01-05 00:00:22.137800 -> API currently unavailable. Trying again in 20s
+2021-01-05 00:00:22.137800 -> Successfully pulled data
+2021-01-05 00:00:22.137800 -> Finished parsing data for XP gainzzz
+2021-01-05 00:00:22.137800 -> Finished parsing data for item prices
+2021-01-05 12:00:17.899755 -> API currently unavailable. Trying again in 20s
+2021-01-05 12:00:17.899755 -> Successfully pulled data
+2021-01-05 12:00:17.899755 -> Finished parsing data for XP gainzzz
+2021-01-05 12:00:17.899755 -> Finished parsing data for item prices
+2021-01-06 00:00:48.492518 -> API currently unavailable. Trying again in 20s
+2021-01-06 00:00:48.492518 -> Successfully pulled data
+2021-01-06 00:00:48.492518 -> Finished parsing data for XP gainzzz
+2021-01-06 00:00:48.492518 -> Finished parsing data for item prices
+2021-01-06 12:00:01.644963 -> API currently unavailable. Trying again in 20s
+2021-01-06 12:00:01.644963 -> Successfully pulled data
+2021-01-06 12:00:01.644963 -> Finished parsing data for XP gainzzz
+2021-01-06 12:00:01.644963 -> Finished parsing data for item prices
+2021-01-07 00:00:02.099625 -> API currently unavailable. Trying again in 20s
+2021-01-07 00:00:02.099625 -> Successfully pulled data
+2021-01-07 00:00:02.099625 -> Finished parsing data for XP gainzzz
+2021-01-07 00:00:02.099625 -> Finished parsing data for item prices
+2021-01-07 12:00:02.461671 -> API currently unavailable. Trying again in 20s
+2021-01-07 12:00:02.461671 -> Successfully pulled data
+2021-01-07 12:00:02.461671 -> Finished parsing data for XP gainzzz
+2021-01-07 12:00:02.461671 -> Finished parsing data for item prices
+2021-01-08 00:00:02.002255 -> API currently unavailable. Trying again in 20s
+2021-01-08 00:00:02.002255 -> Successfully pulled data
+2021-01-08 00:00:02.002255 -> Finished parsing data for XP gainzzz
+2021-01-08 00:00:02.002255 -> Finished parsing data for item prices
+2021-01-08 12:00:02.598408 -> API currently unavailable. Trying again in 20s
+2021-01-08 12:00:02.598408 -> Successfully pulled data
+2021-01-08 12:00:02.598408 -> Finished parsing data for XP gainzzz
+2021-01-08 12:00:02.598408 -> Finished parsing data for item prices
+2021-01-09 00:00:01.853514 -> API currently unavailable. Trying again in 20s
+2021-01-09 00:00:01.853514 -> Successfully pulled data
+2021-01-09 00:00:01.853514 -> Finished parsing data for XP gainzzz
+2021-01-09 00:00:01.853514 -> Finished parsing data for item prices
+2021-01-09 12:00:02.891100 -> API currently unavailable. Trying again in 20s
+2021-01-09 12:00:02.891100 -> Successfully pulled data
+2021-01-09 12:00:02.891100 -> Finished parsing data for XP gainzzz
+2021-01-09 12:00:02.891100 -> Finished parsing data for item prices
+2021-01-10 00:00:02.156177 -> API currently unavailable. Trying again in 20s
+2021-01-10 00:00:02.156177 -> Successfully pulled data
+2021-01-10 00:00:02.156177 -> Finished parsing data for XP gainzzz
+2021-01-10 00:00:02.156177 -> Finished parsing data for item prices
+2021-01-10 12:29:23.015450 -> API currently unavailable. Trying again in 20s
+2021-01-10 12:29:23.015450 -> Successfully pulled data
+2021-01-10 12:29:23.015450 -> Finished parsing data for XP gainzzz
+2021-01-10 12:29:23.015450 -> Finished parsing data for item prices
+2021-01-11 12:04:34.831740 -> API currently unavailable. Trying again in 20s
+2021-01-11 12:04:34.831740 -> Successfully pulled data
+2021-01-11 12:04:34.831740 -> Finished parsing data for XP gainzzz
+2021-01-11 12:04:34.831740 -> Finished parsing data for item prices
+2021-01-12 12:01:41.116701 -> API currently unavailable. Trying again in 20s
+2021-01-12 12:01:41.116701 -> Successfully pulled data
+2021-01-12 12:01:41.116701 -> Finished parsing data for XP gainzzz
+2021-01-12 12:01:41.116701 -> Finished parsing data for item prices
+2021-01-13 00:01:13.873803 -> API currently unavailable. Trying again in 20s
+2021-01-13 00:01:13.873803 -> Successfully pulled data
+2021-01-13 00:01:13.873803 -> Finished parsing data for XP gainzzz
+2021-01-13 00:01:13.873803 -> Finished parsing data for item prices
+2021-01-13 12:00:46.533530 -> API currently unavailable. Trying again in 20s
+2021-01-13 12:00:46.533530 -> Successfully pulled data
+2021-01-13 12:00:46.533530 -> Finished parsing data for XP gainzzz
+2021-01-13 12:00:46.533530 -> Finished parsing data for item prices
+2021-01-14 12:00:01.649446 -> API currently unavailable. Trying again in 20s
+2021-01-14 12:00:01.649446 -> Successfully pulled data
+2021-01-14 12:00:01.649446 -> Finished parsing data for XP gainzzz
+2021-01-14 12:00:01.649446 -> Finished parsing data for item prices
+2021-01-15 00:01:01.151795 -> API currently unavailable. Trying again in 20s
+2021-01-15 00:01:01.151795 -> Successfully pulled data
+2021-01-15 00:01:01.151795 -> Finished parsing data for XP gainzzz
+2021-01-15 00:01:01.151795 -> Finished parsing data for item prices
+2021-01-15 12:00:38.312844 -> API currently unavailable. Trying again in 20s
+2021-01-15 12:00:38.312844 -> Successfully pulled data
+2021-01-15 12:00:38.312844 -> Finished parsing data for XP gainzzz
+2021-01-15 12:00:38.312844 -> Finished parsing data for item prices
+2021-01-16 12:00:02.321811 -> API currently unavailable. Trying again in 20s
+2021-01-16 12:00:02.321811 -> Successfully pulled data
+2021-01-16 12:00:02.321811 -> Finished parsing data for XP gainzzz
+2021-01-16 12:00:02.321811 -> Finished parsing data for item prices
+2021-01-17 12:00:24.598461 -> API currently unavailable. Trying again in 20s
+2021-01-17 12:00:24.598461 -> Successfully pulled data
+2021-01-17 12:00:24.598461 -> Finished parsing data for XP gainzzz
+2021-01-17 12:00:24.598461 -> Finished parsing data for item prices
+2021-01-18 12:00:02.455152 -> API currently unavailable. Trying again in 20s
+2021-01-18 12:00:02.455152 -> Successfully pulled data
+2021-01-18 12:00:02.455152 -> Finished parsing data for XP gainzzz
+2021-01-18 12:00:02.455152 -> Finished parsing data for item prices
+2021-01-19 12:01:36.499897 -> API currently unavailable. Trying again in 20s
+2021-01-19 12:01:36.499897 -> Successfully pulled data
+2021-01-19 12:01:36.499897 -> Finished parsing data for XP gainzzz
+2021-01-19 12:01:36.499897 -> Finished parsing data for item prices
+2021-01-20 12:00:31.804732 -> API currently unavailable. Trying again in 20s
+2021-01-20 12:00:31.804732 -> Successfully pulled data
+2021-01-20 12:00:31.804732 -> Finished parsing data for XP gainzzz
+2021-01-20 12:00:31.804732 -> Finished parsing data for item prices
+2021-01-21 12:00:38.547785 -> API currently unavailable. Trying again in 20s
+2021-01-21 12:00:38.547785 -> Successfully pulled data
+2021-01-21 12:00:38.547785 -> Finished parsing data for XP gainzzz
+2021-01-21 12:00:38.547785 -> Finished parsing data for item prices
+2021-01-22 00:00:46.170810 -> API currently unavailable. Trying again in 20s
+2021-01-22 00:00:46.170810 -> Successfully pulled data
+2021-01-22 00:00:46.170810 -> Finished parsing data for XP gainzzz
+2021-01-22 00:00:46.170810 -> Finished parsing data for item prices
+2021-01-22 12:00:37.670380 -> API currently unavailable. Trying again in 20s
+2021-01-22 12:00:37.670380 -> Successfully pulled data
+2021-01-22 12:00:37.670380 -> Finished parsing data for XP gainzzz
+2021-01-22 12:00:37.670380 -> Finished parsing data for item prices
