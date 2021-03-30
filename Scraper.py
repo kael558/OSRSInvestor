@@ -17,6 +17,21 @@ skills = ["magic", "fletching", "woodcutting", "firemaking", "construction", "fa
           "mining", "smithing"]
 count = 200
 
+def get_dt():
+    timestamp = time.time()
+    return datetime.fromtimestamp(timestamp)
+
+def subtract(d1, d2):
+    res = dict()
+    for key in d1:
+        if key not in d2:
+            res[key] = d1[key]
+    return res
+
+
+def average(lst):
+    return sum(lst) / len(lst)
+
 
 def append_page_nums(query):
     for i in range(2, pages + 1):
@@ -53,31 +68,17 @@ hdr = {
 
 url = str(base_url) + str(json.dumps(query).replace(" ", ""))
 
-timestamp = time.time()
 
-dt = datetime.fromtimestamp(timestamp)
+log(get_dt(), "Attempting to connect...")
 
-response = "-4"
-
-while "-4" in response:
+while True:
     response = get(url, headers=hdr)
-    log(dt, "API currently unavailable. Trying again in 20s")
-    time.sleep(20)
+    if response:
+        break
+    log(get_dt(), "API currently unavailable. Trying again in 60s -> " + str(response))
+    time.sleep(60)
 
-log(dt, "Successfully pulled data")
-
-
-def subtract(d1, d2):
-    res = dict()
-    for key in d1:
-        if key not in d2:
-            res[key] = d1[key]
-    return res
-
-
-def average(lst):
-    return sum(lst) / len(lst)
-
+log(get_dt(), "Successfully pulled data")
 
 groupNum = 0
 skillIndex = -1
@@ -118,8 +119,6 @@ for line in response.text.splitlines():
     except:
         print(line)
 
-log(dt, "Finished parsing data for XP gainzzz")
-
 
 def create_list(*args):
     lst = []
@@ -128,7 +127,8 @@ def create_list(*args):
     return lst
 
 
-runes = list(range(554, 567, 1))  # Runes
+# Item IDs
+runes = list(range(554, 567, 1))
 logs = [1511, 1513, 1515, 1517, 1519, 1521]
 seeds = create_list(list(range(5096, 5107, 1)), list(range(5280, 5317, 1)), list(range(5318, 5325, 1)))
 ores = [436, 438, 440, 442, 444, 447, 449, 451]
@@ -151,11 +151,12 @@ logPrices = [timestamp] + get_item_prices(logs)
 seedPrices = [timestamp] + get_item_prices(seeds)
 orePrices = [timestamp] + get_item_prices(ores)
 
-log(dt, "Finished parsing data for item prices")
+log(get_dt(), "Finished parsing all data")
 
 
 def write_to_csv(filename, data):
-    with open('C:/Users/Rahel/PycharmProjects/OSRSInvestor/data/{}_data.csv'.format(filename), mode='a', newline='') as GE_data:
+    with open('C:/Users/Rahel/PycharmProjects/OSRSInvestor/data/{}_data.csv'.format(filename), mode='a',
+              newline='') as GE_data:
         GE_writer = csv.writer(GE_data, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         GE_writer.writerow(data)
 
@@ -166,3 +167,4 @@ write_to_csv('Seed', seedPrices)
 write_to_csv('Ore', orePrices)
 write_to_csv('XP', [timestamp] + list(xp_averages.values()))
 
+log(get_dt(), "Finished writing all data")
