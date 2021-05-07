@@ -1,111 +1,3 @@
-2021-02-11 16:00:02.213820 -> Attempting to connect...
-2021-02-11 16:00:02.213820 -> Successfully pulled data
-2021-02-11 16:00:02.213820 -> Finished parsing all data
-2021-02-11 16:00:02.213820 -> Finished writing all data
-2021-02-12 16:00:02.324712 -> Attempting to connect...
-2021-02-12 16:00:02.324712 -> Successfully pulled data
-2021-02-12 16:00:02.324712 -> Finished parsing all data
-2021-02-12 16:00:02.324712 -> Finished writing all data
-2021-02-13 16:00:01.665892 -> Attempting to connect...
-2021-02-13 16:00:01.665892 -> Successfully pulled data
-2021-02-13 16:00:01.665892 -> Finished parsing all data
-2021-02-13 16:00:01.665892 -> Finished writing all data
-2021-02-14 16:00:02.316613 -> Attempting to connect...
-2021-02-14 16:00:02.316613 -> Successfully pulled data
-2021-02-14 16:00:02.316613 -> Finished parsing all data
-2021-02-14 16:00:02.316613 -> Finished writing all data
-2021-02-15 16:00:01.622195 -> Attempting to connect...
-2021-02-15 16:00:01.622195 -> Successfully pulled data
-2021-02-15 16:00:01.622195 -> Finished parsing all data
-2021-02-15 16:00:01.622195 -> Finished writing all data
-2021-02-16 16:00:01.773232 -> Attempting to connect...
-2021-02-16 16:00:01.773232 -> Successfully pulled data
-2021-02-16 16:00:01.773232 -> Finished parsing all data
-2021-02-16 16:00:01.773232 -> Finished writing all data
-2021-02-17 16:00:02.775824 -> Attempting to connect...
-2021-02-17 16:00:02.775824 -> Successfully pulled data
-2021-02-17 16:00:02.775824 -> Finished parsing all data
-2021-02-17 16:00:02.775824 -> Finished writing all data
-2021-02-18 20:10:03.788117 -> Attempting to connect...
-2021-02-19 16:00:02.686507 -> Attempting to connect...
-2021-02-19 16:00:02.686507 -> Successfully pulled data
-2021-02-19 16:00:02.686507 -> Finished parsing all data
-2021-02-19 16:00:02.686507 -> Finished writing all data
-2021-02-20 16:00:01.824805 -> Attempting to connect...
-2021-02-20 16:00:01.824805 -> Successfully pulled data
-2021-02-20 16:00:01.824805 -> Finished parsing all data
-2021-02-20 16:00:01.824805 -> Finished writing all data
-2021-02-22 16:00:01.731754 -> Attempting to connect...
-2021-02-22 16:40:34.067948 -> Attempting to connect...
-2021-02-22 16:40:34.364425 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-02-22 16:40:54.596709 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-02-22 16:41:14.854973 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-02-22 16:42:11.029412 -> Successfully pulled data
-2021-02-22 16:44:49.194464 -> Finished parsing all data
-2021-02-22 16:44:49.202503 -> Finished writing all data
-2021-02-25 19:07:53.530946 -> Attempting to connect...
-2021-03-01 16:00:01.792062 -> Attempting to connect...
-2021-03-01 16:00:11.036529 -> Successfully pulled data
-2021-03-01 16:02:35.595968 -> Finished parsing all data
-2021-03-01 16:02:35.611982 -> Finished writing all data
-2021-03-02 16:00:01.726689 -> Attempting to connect...
-2021-03-02 16:02:54.137621 -> Successfully pulled data
-2021-03-02 16:05:11.785837 -> Finished parsing all data
-2021-03-02 16:05:11.807970 -> Finished writing all data
-2021-03-03 16:00:01.757831 -> Attempting to connect...
-2021-03-03 16:02:03.030623 -> Successfully pulled data
-2021-03-03 16:04:19.855632 -> Finished parsing all data
-2021-03-03 16:04:19.867747 -> Finished writing all data
-2021-03-04 16:00:02.427006 -> Attempting to connect...
-2021-03-04 16:02:14.263353 -> Successfully pulled data
-2021-03-04 16:04:40.071672 -> Finished parsing all data
-2021-03-04 16:04:40.081477 -> Finished writing all data
-2021-03-05 16:00:02.075829 -> Attempting to connect...
-2021-03-05 16:03:26.783127 -> Successfully pulled data
-2021-03-06 16:00:02.163329 -> Attempting to connect...
-2021-03-06 16:02:13.299400 -> Successfully pulled data
-2021-03-06 16:04:28.340704 -> Finished parsing all data
-2021-03-06 16:04:28.351698 -> Finished writing all data
-2021-03-09 00:24:24.582769 -> Attempting to connect...
-2021-03-09 00:25:36.289313 -> Successfully pulled data
-2021-03-09 00:28:02.185577 -> Finished parsing all data
-2021-03-09 00:28:02.200645 -> Finished writing all data
-2021-03-09 16:00:02.491548 -> Attempting to connect...
-2021-03-09 16:01:50.276851 -> Successfully pulled data
-2021-03-09 16:04:06.842851 -> Finished parsing all data
-2021-03-09 16:04:06.858450 -> Finished writing all data
-2021-03-11 16:00:02.654487 -> Attempting to connect...
-2021-03-11 16:01:38.797389 -> Successfully pulled data
-2021-03-11 16:03:59.700143 -> Finished parsing all data
-2021-03-11 16:03:59.716196 -> Finished writing all data
-2021-03-12 16:00:02.154392 -> Attempting to connect...
-2021-03-14 16:00:02.375841 -> Attempting to connect...
-2021-03-14 16:01:42.586029 -> API currently unavailable. Trying again in 20s -> <Response [524]>
-2021-03-14 16:02:02.804189 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:02:23.009829 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:02:43.219167 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:03:03.435475 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:03:23.673550 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:03:43.883172 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:04:04.155859 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:04:24.362847 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:04:44.540866 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:05:04.836725 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:05:25.059115 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:05:45.266675 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:06:05.475870 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:06:25.697617 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:06:45.907596 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:07:06.109360 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:07:26.307561 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:07:46.514974 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:08:06.731799 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:08:26.956150 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:08:47.182330 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:09:07.387864 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:09:27.617427 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:09:47.878449 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-14 16:10:08.123533 -> API currently unavailable. Trying again in 20s -> <Response [500]>
 2021-03-16 16:00:01.448530 -> Attempting to connect...
 2021-03-16 16:00:01.700403 -> API currently unavailable. Trying again in 20s -> <Response [500]>
 2021-03-16 16:00:21.953552 -> API currently unavailable. Trying again in 20s -> <Response [500]>
@@ -688,3 +580,508 @@
 2021-03-29 16:29:37.747569 -> Successfully pulled data
 2021-03-29 16:31:57.748430 -> Finished parsing all data
 2021-03-29 16:31:57.763391 -> Finished writing all data
+2021-03-30 16:00:01.657696 -> Attempting to connect...
+2021-03-30 16:00:02.730374 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:01:03.064303 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:02:03.355837 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:03:03.723140 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:04:04.077280 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:05:04.474462 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:06:04.934205 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:07:05.276458 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:08:05.605205 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:09:05.972214 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:10:06.373667 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:11:06.700988 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:12:07.044606 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:13:07.367766 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:14:07.677412 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:15:08.041681 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:16:08.372087 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:17:08.681434 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-30 16:18:41.817263 -> Successfully pulled data
+2021-03-30 16:21:01.780783 -> Finished parsing all data
+2021-03-30 16:21:01.792302 -> Finished writing all data
+2021-03-31 16:00:02.053112 -> Attempting to connect...
+2021-03-31 16:00:02.799207 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:01:03.148009 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:02:03.389386 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:03:03.661929 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:04:03.893124 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:05:04.159892 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:06:04.480257 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:07:04.713779 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:08:05.019541 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:09:05.281116 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:10:05.548882 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:11:05.816880 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:12:06.055792 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-03-31 16:13:11.112109 -> Successfully pulled data
+2021-03-31 16:15:28.882822 -> Finished parsing all data
+2021-03-31 16:15:28.897877 -> Finished writing all data
+2021-04-01 16:00:01.938558 -> Attempting to connect...
+2021-04-01 16:01:42.334331 -> API currently unavailable. Trying again in 60s -> <Response [524]>
+2021-04-01 16:02:43.185767 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:03:43.647240 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:04:45.106312 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:05:45.409503 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:06:45.762527 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:07:46.141460 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:08:46.396550 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:09:46.875013 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:10:47.175190 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:11:47.563732 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:12:47.881807 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:13:48.330676 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:14:48.674707 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:15:49.017028 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:16:49.340863 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:17:49.596077 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:18:49.951920 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:19:50.190998 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:20:50.557276 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:21:50.792639 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:22:51.041786 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:23:51.312170 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:24:51.543124 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:25:51.900173 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:26:52.335990 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:27:52.603275 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:28:52.917940 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:29:53.170138 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:30:53.429739 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:31:53.687163 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:32:53.970275 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:33:54.768260 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:34:55.113898 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:35:56.089309 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:36:56.430650 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:37:56.866126 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-01 16:40:07.039701 -> Successfully pulled data
+2021-04-01 16:42:30.416655 -> Finished parsing all data
+2021-04-01 16:42:30.426650 -> Finished writing all data
+2021-04-02 16:00:01.931276 -> Attempting to connect...
+2021-04-02 16:01:50.888397 -> Successfully pulled data
+2021-04-02 16:04:11.977840 -> Finished parsing all data
+2021-04-02 16:04:11.991864 -> Finished writing all data
+2021-04-03 16:00:02.173864 -> Attempting to connect...
+2021-04-03 16:02:37.285223 -> Successfully pulled data
+2021-04-03 16:04:57.565641 -> Finished parsing all data
+2021-04-03 16:04:57.579970 -> Finished writing all data
+2021-04-04 16:00:02.017403 -> Attempting to connect...
+2021-04-04 16:00:02.263923 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:01:02.530608 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:02:02.778603 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:03:03.005554 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:04:03.242779 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:05:03.535494 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:06:03.764543 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:07:04.015193 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:08:04.272385 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:09:04.470817 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:10:04.701571 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:11:04.926948 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:12:05.185122 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:13:05.412031 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:14:05.628345 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:15:05.956007 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:16:06.176489 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:17:06.405917 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:18:06.664316 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-04 16:20:32.038713 -> Successfully pulled data
+2021-04-04 16:22:52.164559 -> Finished parsing all data
+2021-04-04 16:22:52.181980 -> Finished writing all data
+2021-04-05 16:00:02.067259 -> Attempting to connect...
+2021-04-05 16:01:42.354623 -> API currently unavailable. Trying again in 60s -> <Response [524]>
+2021-04-05 16:02:42.610444 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:03:42.877890 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:04:43.198756 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:05:43.502594 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:06:43.790855 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:07:45.149979 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:08:45.416612 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:09:46.095624 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:10:46.527950 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:11:47.261923 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:12:47.740866 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:13:48.505978 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:14:48.853914 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:15:49.129197 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:16:49.373327 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:17:49.658642 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:18:50.396478 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:19:50.727237 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:20:51.072869 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:21:51.347931 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:22:51.596202 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-05 16:24:25.388315 -> Successfully pulled data
+2021-04-05 16:26:52.485528 -> Finished parsing all data
+2021-04-05 16:26:52.507489 -> Finished writing all data
+2021-04-06 16:00:01.973106 -> Attempting to connect...
+2021-04-06 16:00:02.285602 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:01:02.820701 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:02:03.099984 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:03:03.341707 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:04:03.558758 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:05:04.112253 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:06:04.337302 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:07:04.615826 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:08:04.877870 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:09:05.138369 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:10:05.427294 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:11:05.828842 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:12:06.074223 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:13:06.354143 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:14:06.659037 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:15:06.914206 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:16:07.204928 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:17:07.484373 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-06 16:18:45.434394 -> Successfully pulled data
+2021-04-06 16:21:11.731351 -> Finished parsing all data
+2021-04-06 16:21:11.744423 -> Finished writing all data
+2021-04-07 16:00:08.684640 -> Attempting to connect...
+2021-04-07 16:00:09.549303 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:01:09.802641 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:02:10.313174 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:03:10.498888 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:04:10.775170 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:05:11.025358 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:06:11.250270 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:07:11.472448 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:08:11.707975 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:09:11.946812 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:10:12.173156 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:11:12.404598 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:12:12.613849 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:13:12.968887 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:14:13.190586 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:15:13.425862 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:16:13.619222 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:17:13.834729 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:18:14.087893 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:19:14.365294 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:20:14.622177 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:21:14.825584 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:22:15.070997 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:23:15.311456 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:24:15.528392 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:25:15.774415 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:26:16.006047 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:27:16.216505 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:28:16.413274 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:29:16.639575 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:30:16.867748 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:31:17.078645 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-07 16:32:25.564150 -> Successfully pulled data
+2021-04-07 16:34:46.024432 -> Finished parsing all data
+2021-04-07 16:34:46.037366 -> Finished writing all data
+2021-04-08 16:00:02.124767 -> Attempting to connect...
+2021-04-08 16:00:02.394567 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:01:02.638609 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:02:02.985725 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:03:03.314931 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:04:03.570694 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:05:04.011008 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:06:04.288149 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:07:04.588232 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:08:04.832159 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:09:05.162465 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:10:05.450368 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:11:05.736692 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:12:06.433138 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:13:06.732516 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:14:07.875888 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:15:08.190514 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:16:08.447307 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:17:08.724014 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:18:08.967356 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:19:09.250468 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:20:09.566342 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:21:09.804251 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:22:10.035559 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:23:10.280437 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:24:10.537802 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:25:10.848116 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:26:13.732996 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:27:14.225101 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-08 16:28:20.425623 -> Successfully pulled data
+2021-04-08 16:30:47.533494 -> Finished parsing all data
+2021-04-08 16:30:47.594457 -> Finished writing all data
+2021-04-09 16:00:02.135986 -> Attempting to connect...
+2021-04-09 16:01:42.387054 -> API currently unavailable. Trying again in 60s -> <Response [524]>
+2021-04-09 16:02:42.623852 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-09 16:03:42.856297 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-09 16:04:59.509936 -> Successfully pulled data
+2021-04-09 16:07:19.461106 -> Finished parsing all data
+2021-04-09 16:07:19.474094 -> Finished writing all data
+2021-04-10 17:02:48.576362 -> Attempting to connect...
+2021-04-10 17:02:48.995229 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:03:49.283639 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:04:49.526782 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:05:49.769734 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:06:50.988209 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:07:51.521052 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:08:51.756029 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:09:51.960030 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:10:52.302566 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:11:52.722632 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:12:52.997050 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:13:53.278862 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:14:53.625540 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:15:54.055185 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:16:54.314209 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:17:54.679399 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:18:54.896049 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:19:55.149655 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:20:55.402945 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:21:55.651895 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:22:55.928633 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:23:56.192394 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:24:56.448050 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:25:56.693603 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:26:56.977090 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:27:57.271845 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:28:57.525978 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:29:57.778774 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:30:58.029608 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:31:58.273554 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:32:58.608272 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:33:58.877508 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-10 17:35:55.292854 -> Successfully pulled data
+2021-04-10 17:38:18.802726 -> Finished parsing all data
+2021-04-10 17:38:18.809268 -> Finished writing all data
+2021-04-11 16:00:01.951364 -> Attempting to connect...
+2021-04-11 16:00:02.856290 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:01:03.111591 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:02:03.361338 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:03:03.651689 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:04:04.121749 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:05:04.456454 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:06:04.730458 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:07:04.990389 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:08:05.280446 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:09:05.590595 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:10:05.890795 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:11:06.140823 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:12:06.470564 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:13:06.745724 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:14:06.990824 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:15:07.325518 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:16:07.552856 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:17:07.903520 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:18:08.174485 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:19:08.596549 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:20:09.145129 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:21:09.408376 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-11 16:23:26.558969 -> Successfully pulled data
+2021-04-11 16:25:51.187495 -> Finished parsing all data
+2021-04-11 16:25:51.194491 -> Finished writing all data
+2021-04-12 16:00:01.789290 -> Attempting to connect...
+2021-04-12 16:00:02.633835 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:01:02.839457 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:02:03.036891 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:03:03.444852 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:04:03.637336 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:05:03.868063 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:06:04.071227 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:07:04.281464 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:08:04.713886 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:09:05.073268 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:10:05.352073 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:11:05.598847 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:12:05.791832 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:13:05.995590 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:14:06.180506 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:15:06.483814 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:16:06.694384 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:17:06.944447 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:18:07.174318 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:19:07.379647 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:20:07.627362 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:21:07.851616 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:22:08.098237 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:23:08.349838 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:24:08.552607 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:25:08.779061 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:26:08.979317 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:27:09.167090 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:28:09.380296 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:29:09.592104 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 16:31:09.962478 -> Successfully pulled data
+2021-04-12 17:05:12.805561 -> Attempting to connect...
+2021-04-12 17:05:13.039937 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-12 17:06:30.296733 -> Successfully pulled data
+2021-04-12 17:07:25.750531 -> Finished parsing all data
+2021-04-12 17:07:25.750531 -> Finished writing all data
+2021-04-13 16:01:23.335226 -> Attempting to connect...
+2021-04-13 16:01:23.608009 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-13 16:02:23.835399 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-13 16:04:34.018080 -> Successfully pulled data
+2021-04-13 17:07:33.462058 -> Attempting to connect...
+2021-04-13 17:08:16.548988 -> Successfully pulled data
+2021-04-13 17:09:11.820937 -> Finished parsing all data
+2021-04-13 17:09:11.833448 -> Finished writing all data
+2021-04-14 16:00:04.502498 -> Attempting to connect...
+2021-04-14 16:02:26.025108 -> Successfully pulled data
+2021-04-14 16:03:19.178455 -> Finished parsing all data
+2021-04-14 16:03:19.203441 -> Finished writing all data
+2021-04-15 16:00:02.036564 -> Attempting to connect...
+2021-04-15 16:01:19.585762 -> Successfully pulled data
+2021-04-15 16:02:16.897168 -> Finished parsing all data
+2021-04-15 16:02:16.907044 -> Finished writing all data
+2021-04-16 16:00:02.439390 -> Attempting to connect...
+2021-04-16 16:01:24.227360 -> Successfully pulled data
+2021-04-16 16:02:19.715625 -> Finished parsing all data
+2021-04-16 16:02:19.729310 -> Finished writing all data
+2021-04-17 16:00:02.141974 -> Attempting to connect...
+2021-04-17 16:01:27.406335 -> Successfully pulled data
+2021-04-17 16:02:25.035911 -> Finished parsing all data
+2021-04-17 16:02:25.048546 -> Finished writing all data
+2021-04-18 16:00:02.083828 -> Attempting to connect...
+2021-04-18 16:02:27.861209 -> Successfully pulled data
+2021-04-18 16:02:49.664346 -> Attempting to connect...
+2021-04-18 16:02:49.846398 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-18 16:03:50.066073 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-18 16:04:50.250142 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-18 16:05:50.447731 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-18 16:07:37.776866 -> Successfully pulled data
+2021-04-18 16:10:14.876175 -> Attempting to connect...
+2021-04-18 16:10:15.063675 -> API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-18 16:11:57.888769 -> Successfully pulled data
+2021-04-18 16:17:01.755237 -> Attempting to connect...
+2021-04-18 16:18:07.961680 -> Attempting to connect...
+2021-04-18 16:21:51.430366 -> Attempting to connect...
+2021-04-18 16:22:39.195629 -> Attempting to connect...
+2021-04-18 16:23:09.350930 -> Attempting to connect...
+2021-04-18 16:23:09.562094 -> XP API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-18 16:25:19.480715 -> Successfully pulled data
+2021-04-18 16:28:07.377721 -> Attempting to connect...
+2021-04-18 16:28:22.118135 -> Attempting to connect...
+2021-04-18 16:30:16.020030 -> Attempting to connect...
+2021-04-18 16:31:44.703864 -> Attempting to connect...
+2021-04-18 16:32:15.080856 -> Attempting to connect...
+2021-04-18 16:32:47.872680 -> Attempting to connect...
+2021-04-18 16:33:12.604786 -> Attempting to connect...
+2021-04-18 16:34:53.323182 -> Attempting to connect...
+2021-04-18 16:35:22.655136 -> Successfully pulled data
+2021-04-18 16:35:30.921320 -> Prices API currently unavailable for item ID: 566. Trying again in 10s -> <Response [200]>
+2021-04-18 16:35:42.680140 -> Prices API currently unavailable for item ID: 1513. Trying again in 10s -> <Response [200]>
+2021-04-18 16:37:25.678213 -> Attempting to connect...
+2021-04-18 16:37:25.865731 -> XP API currently unavailable. Trying again in 60s -> <Response [500]>
+2021-04-18 16:38:55.553410 -> Successfully pulled data
+2021-04-18 16:39:25.934393 -> Prices API currently unavailable for item ID: 5293. Trying again in 10s -> <Response [200]>
+2021-04-18 16:39:37.770996 -> Prices API currently unavailable for item ID: 5295. Trying again in 10s -> <Response [200]>
+2021-04-18 16:39:49.573609 -> Prices API currently unavailable for item ID: 5297. Trying again in 10s -> <Response [200]>
+2021-04-18 16:40:02.092809 -> Prices API currently unavailable for item ID: 5300. Trying again in 10s -> <Response [200]>
+2021-04-18 16:40:13.969945 -> Prices API currently unavailable for item ID: 5302. Trying again in 10s -> <Response [200]>
+2021-04-18 16:40:26.502566 -> Prices API currently unavailable for item ID: 5305. Trying again in 10s -> <Response [200]>
+2021-04-18 16:40:38.330879 -> Prices API currently unavailable for item ID: 5307. Trying again in 10s -> <Response [200]>
+2021-04-18 16:40:50.928101 -> Prices API currently unavailable for item ID: 5310. Trying again in 10s -> <Response [200]>
+2021-04-18 16:41:02.865193 -> Prices API currently unavailable for item ID: 5312. Trying again in 10s -> <Response [200]>
+2021-04-18 16:41:15.562198 -> Prices API currently unavailable for item ID: 5315. Trying again in 10s -> <Response [200]>
+2021-04-18 16:41:27.621643 -> Prices API currently unavailable for item ID: 5318. Trying again in 10s -> <Response [200]>
+2021-04-18 16:41:39.458338 -> Prices API currently unavailable for item ID: 5320. Trying again in 10s -> <Response [200]>
+2021-04-18 16:41:52.099725 -> Prices API currently unavailable for item ID: 5323. Trying again in 10s -> <Response [200]>
+2021-04-18 16:42:03.939813 -> Prices API currently unavailable for item ID: 436. Trying again in 10s -> <Response [200]>
+2021-04-18 16:42:16.398226 -> Prices API currently unavailable for item ID: 442. Trying again in 10s -> <Response [200]>
+2021-04-18 16:42:28.349434 -> Prices API currently unavailable for item ID: 447. Trying again in 10s -> <Response [200]>
+2021-04-18 16:42:40.328162 -> Finished parsing all data
+2021-04-18 16:42:40.336066 -> Finished writing all data
+2021-04-19 16:00:02.122094 -> Attempting to connect...
+2021-04-19 16:00:02.526815 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-04-19 16:01:02.921899 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-04-19 16:02:58.187895 -> Successfully pulled data
+2021-04-19 16:03:47.240073 -> Prices API currently unavailable for item ID: 5320. Retry in 20s -> <Response [504]>
+2021-04-19 16:04:16.043054 -> Finished parsing all data
+2021-04-19 16:04:16.046254 -> Finished writing all data
+2021-04-20 16:00:02.303093 -> Attempting to connect...
+2021-04-20 16:01:21.461230 -> Successfully pulled data
+2021-04-20 16:02:17.416780 -> Finished parsing all data
+2021-04-20 16:02:17.429774 -> Finished writing all data
+2021-04-21 16:00:02.310841 -> Attempting to connect...
+2021-04-21 16:01:22.459109 -> Successfully pulled data
+2021-04-21 16:01:55.042954 -> Prices API currently unavailable for item ID: 5102. Retry in 20s -> <Response [504]>
+2021-04-21 16:03:06.779212 -> Prices API currently unavailable for item ID: 5320. Retry in 20s -> <Response [504]>
+2021-04-21 16:03:38.451925 -> Finished parsing all data
+2021-04-21 16:03:38.464691 -> Finished writing all data
+2021-04-22 16:00:02.240815 -> Attempting to connect...
+2021-04-22 16:00:02.762954 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-04-22 16:01:03.044302 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-04-22 16:02:17.635978 -> Successfully pulled data
+2021-04-22 16:02:53.289118 -> Prices API currently unavailable for item ID: 5282. Retry in 20s -> <Response [504]>
+2021-04-22 16:03:55.067507 -> Prices API currently unavailable for item ID: 5320. Retry in 20s -> <Response [504]>
+2021-04-22 16:04:26.231080 -> Finished parsing all data
+2021-04-22 16:04:26.240963 -> Finished writing all data
+2021-04-23 16:00:02.453376 -> Attempting to connect...
+2021-04-23 16:01:04.688039 -> Successfully pulled data
+2021-04-23 16:02:06.060715 -> Finished parsing all data
+2021-04-23 16:02:06.093695 -> Finished writing all data
+2021-04-24 22:00:20.347047 -> Attempting to connect...
+2021-04-24 22:01:35.778276 -> Successfully pulled data
+2021-04-24 22:02:30.005078 -> Finished parsing all data
+2021-04-24 22:02:30.011074 -> Finished writing all data
+2021-04-25 16:00:02.014102 -> Attempting to connect...
+2021-04-25 16:01:13.017312 -> Successfully pulled data
+2021-04-25 16:02:16.013007 -> Finished parsing all data
+2021-04-25 16:02:16.019001 -> Finished writing all data
+2021-04-26 16:00:03.226479 -> Attempting to connect...
+2021-04-26 16:00:04.160888 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-04-26 16:01:04.377972 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-04-26 16:02:04.548846 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-04-26 16:03:24.728331 -> Successfully pulled data
+2021-04-26 16:04:18.105940 -> Finished parsing all data
+2021-04-26 16:04:18.114935 -> Finished writing all data
+2021-04-27 16:00:02.077688 -> Attempting to connect...
+2021-04-27 16:01:39.722699 -> Successfully pulled data
+2021-04-27 16:02:33.808774 -> Prices API currently unavailable for item ID: 5313. Retry in 20s -> <Response [504]>
+2021-04-27 16:03:10.289722 -> Finished parsing all data
+2021-04-27 16:03:10.305314 -> Finished writing all data
+2021-04-28 16:00:03.212546 -> Attempting to connect...
+2021-04-28 16:01:13.221189 -> Successfully pulled data
+2021-04-28 16:02:06.564847 -> Finished parsing all data
+2021-04-28 16:02:06.573842 -> Finished writing all data
+2021-04-29 16:00:01.974318 -> Attempting to connect...
+2021-04-29 16:00:02.520934 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-04-29 16:01:02.910216 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-04-29 16:02:03.112646 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-04-29 16:03:03.358400 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-04-29 16:04:20.365716 -> Successfully pulled data
+2021-04-29 16:05:15.510230 -> Finished parsing all data
+2021-04-29 16:05:15.525891 -> Finished writing all data
+2021-04-30 19:56:45.066180 -> Attempting to connect...
+2021-04-30 19:56:48.185103 -> Successfully pulled data
+2021-04-30 19:57:08.451464 -> Prices API currently unavailable for item ID: 5101. Retry in 20s -> <Response [504]>
+2021-04-30 19:58:01.981413 -> Prices API currently unavailable for item ID: 5320. Retry in 20s -> <Response [504]>
+2021-04-30 19:58:29.945508 -> Finished parsing all data
+2021-04-30 19:58:29.948488 -> Finished writing all data
+2021-05-02 12:07:54.245272 -> Attempting to connect...
+2021-05-02 17:15:33.882297 -> Attempting to connect...
+2021-05-02 17:15:34.946225 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-02 17:16:35.166485 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-02 17:18:03.693637 -> Successfully pulled data
+2021-05-02 17:19:13.477495 -> Finished parsing all data
+2021-05-02 17:19:13.493119 -> Finished writing all data
+2021-05-03 16:00:01.715217 -> Attempting to connect...
+2021-05-03 16:00:52.957025 -> Successfully pulled data
+2021-05-03 16:01:59.036777 -> Finished parsing all data
+2021-05-03 16:01:59.049778 -> Finished writing all data
+2021-05-04 16:00:01.983028 -> Attempting to connect...
+2021-05-04 16:01:48.822449 -> Successfully pulled data
+2021-05-04 16:02:10.018543 -> Prices API currently unavailable for item ID: 5096. Retry in 20s -> <Response [504]>
+2021-05-04 16:03:20.199960 -> Finished parsing all data
+2021-05-04 16:03:20.215584 -> Finished writing all data
+2021-05-05 16:00:02.278509 -> Attempting to connect...
+2021-05-05 16:01:13.356417 -> Successfully pulled data
+2021-05-05 16:02:03.788338 -> Prices API currently unavailable for item ID: 5302. Retry in 20s -> <Response [504]>
+2021-05-05 16:02:46.958767 -> Finished parsing all data
+2021-05-05 16:02:46.973744 -> Finished writing all data
+2021-05-06 16:00:58.621763 -> Attempting to connect...
+2021-05-06 16:00:58.887387 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-06 16:01:59.161467 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-06 16:03:39.503804 -> Successfully pulled data
+2021-05-06 16:04:51.294578 -> Finished parsing all data
+2021-05-06 16:04:51.299205 -> Finished writing all data
+2021-05-07 16:00:02.291746 -> Attempting to connect...
+2021-05-07 16:02:25.534393 -> Successfully pulled data
+2021-05-07 16:05:05.122522 -> Finished parsing all data
+2021-05-07 16:05:05.124512 -> Finished writing all data

@@ -6,7 +6,6 @@ from datetime import datetime
 
 f = open("C:/Users/Rahel/PycharmProjects/OSRSInvestor/data/log.txt", "a")
 
-
 def log(date, msg):
     print(str(date) + " -> " + msg)
     f.write(str(date) + " -> " + msg + "\n")
@@ -75,7 +74,7 @@ while True:
     response = get(url, headers=hdr)
     if response:
         break
-    log(get_dt(), "API currently unavailable. Trying again in 60s -> " + str(response))
+    log(get_dt(), "XP API currently unavailable. Retry in 60s -> " + str(response))
     time.sleep(60)
 
 log(get_dt(), "Successfully pulled data")
@@ -140,9 +139,20 @@ def get_item_prices(itemIDList):
     prices = []
     for itemID in itemIDList:
         item_url = 'http://services.runescape.com/m=itemdb_oldschool/api/graph/{}.json'.format(itemID)
-        r = get(item_url, headers=hdr)
-        json_data = json.loads(r.text)
-        prices.append(list(json_data["daily"].items())[-1][1])
+        while True:
+            r = get(item_url, headers=hdr)
+            if r and r.text != "":
+                break
+            log(get_dt(), "Prices API currently unavailable for item ID: " + str(itemID) + ". Retry in 20s -> " + str(r))
+            time.sleep(20)
+        try:
+            json_data = json.loads(r.text)
+            prices.append(list(json_data["daily"].items())[-1][1])
+        except:
+            print(itemID)
+            print(r)
+            exit(0)
+
     return prices
 
 
@@ -155,10 +165,9 @@ log(get_dt(), "Finished parsing all data")
 
 
 def write_to_csv(filename, data):
-    with open('C:/Users/Rahel/PycharmProjects/OSRSInvestor/data/{}_data.csv'.format(filename), mode='a',
-              newline='') as GE_data:
-        GE_writer = csv.writer(GE_data, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-        GE_writer.writerow(data)
+    with open('C:/Users/Rahel/PycharmProjects/OSRSInvestor/data/{}_data.csv'.format(filename), mode='a', newline='') as file:
+        writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        writer.writerow(data)
 
 
 write_to_csv('Rune', runePrices)
