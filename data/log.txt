@@ -1085,3 +1085,29 @@
 2021-05-07 16:02:25.534393 -> Successfully pulled data
 2021-05-07 16:05:05.122522 -> Finished parsing all data
 2021-05-07 16:05:05.124512 -> Finished writing all data
+2021-05-08 16:00:02.389169 -> Attempting to connect...
+2021-05-08 16:01:20.870784 -> Successfully pulled data
+2021-05-08 16:02:27.398784 -> Finished parsing all data
+2021-05-08 16:02:27.414376 -> Finished writing all data
+2021-05-09 16:00:01.931424 -> Attempting to connect...
+2021-05-09 16:00:02.730399 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-09 16:01:02.967980 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-09 16:02:44.415607 -> Successfully pulled data
+2021-05-09 16:03:23.675963 -> Prices API currently unavailable for item ID: 5292. Retry in 20s -> <Response [504]>
+2021-05-09 16:04:05.353605 -> Prices API currently unavailable for item ID: 5312. Retry in 20s -> <Response [504]>
+2021-05-09 16:04:45.224283 -> Prices API currently unavailable for item ID: 449. Retry in 20s -> <Response [504]>
+2021-05-09 16:05:06.941951 -> Finished parsing all data
+2021-05-09 16:05:06.957576 -> Finished writing all data
+2021-05-10 16:00:01.976091 -> Attempting to connect...
+2021-05-10 16:00:02.648952 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-10 16:01:03.037260 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-10 16:02:03.359565 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-10 16:03:03.636544 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-10 16:04:03.902527 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-10 16:05:25.012096 -> Successfully pulled data
+2021-05-10 16:06:41.653414 -> Finished parsing all data
+2021-05-10 16:06:41.661410 -> Finished writing all data
+2021-05-11 16:00:01.794246 -> Attempting to connect...
+2021-05-11 16:01:07.767880 -> Successfully pulled data
+2021-05-11 16:02:18.137182 -> Finished parsing all data
+2021-05-11 16:02:18.150205 -> Finished writing all data
