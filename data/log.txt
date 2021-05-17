@@ -1111,3 +1111,27 @@
 2021-05-11 16:01:07.767880 -> Successfully pulled data
 2021-05-11 16:02:18.137182 -> Finished parsing all data
 2021-05-11 16:02:18.150205 -> Finished writing all data
+2021-05-12 16:00:01.713738 -> Attempting to connect...
+2021-05-12 16:01:08.357755 -> Successfully pulled data
+2021-05-12 16:02:16.566824 -> Finished parsing all data
+2021-05-12 16:02:16.581867 -> Finished writing all data
+2021-05-13 16:00:02.094782 -> Attempting to connect...
+2021-05-13 16:02:04.761135 -> Successfully pulled data
+2021-05-13 16:03:22.408192 -> Finished parsing all data
+2021-05-13 16:03:22.418136 -> Finished writing all data
+2021-05-14 16:00:02.083735 -> Attempting to connect...
+2021-05-14 16:01:13.622652 -> Successfully pulled data
+2021-05-14 16:02:34.547732 -> Finished parsing all data
+2021-05-14 16:02:34.563816 -> Finished writing all data
+2021-05-15 16:00:01.828997 -> Attempting to connect...
+2021-05-15 16:00:57.656938 -> Successfully pulled data
+2021-05-15 16:01:58.099517 -> Prices API currently unavailable for item ID: 5316. Retry in 20s -> <Response [504]>
+2021-05-15 16:02:31.493432 -> Finished parsing all data
+2021-05-15 16:02:31.502408 -> Finished writing all data
+2021-05-16 16:00:02.029081 -> Attempting to connect...
+2021-05-16 16:00:02.645029 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-16 16:01:02.878367 -> XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-16 16:02:35.109982 -> Successfully pulled data
+2021-05-16 16:03:22.984922 -> Prices API currently unavailable for item ID: 5301. Retry in 20s -> <Response [504]>
+2021-05-16 16:04:08.107597 -> Finished parsing all data
+2021-05-16 16:04:08.123203 -> Finished writing all data
