@@ -15,7 +15,8 @@ def log(msg):
 def get_hourly_timestamp():
     timestamp = time.time()
     timestamp -= timestamp % 3600
-    return timestamp
+    timestamp *= 1000
+    return int(timestamp)
 
 
 hdr = {
@@ -80,7 +81,7 @@ def cml_xp_api_scraper():
         response = get(xp_url, headers=hdr)
         if response:
             break
-        log("XP API currently unavailable. Retry in 60s -> " + str(response))
+        log("CML XP API currently unavailable. Retry in 60s -> " + str(response))
         time.sleep(60)
 
     groupNum = 0
@@ -136,7 +137,7 @@ def fandom_prices_api_scraper():
                 r = get(item_url, headers=hdr)
                 if r and r.text != "":
                     break
-                log("Prices API currently unavailable for item ID: " + str(itemID) + ". Retry in 20s -> " + str(r))
+                log("Fandom Prices API currently unavailable for item ID: " + str(itemID) + ". Retry in 20s -> " + str(r))
                 time.sleep(20)
             try:
                 json_data = json.loads(r.text)
@@ -154,10 +155,10 @@ def fandom_prices_api_scraper():
     seedPrices = [timestamp] + get_item_prices(seeds)
     orePrices = [timestamp] + get_item_prices(ores)
 
-    write_to_csv('Rune', '', runePrices)
-    write_to_csv('Log', '', logPrices)
-    write_to_csv('Seed', '', seedPrices)
-    write_to_csv('Ore', '', orePrices)
+    write_to_csv('Rune', 'fandom', runePrices)
+    write_to_csv('Log', 'fandom', logPrices)
+    write_to_csv('Seed', 'fandom', seedPrices)
+    write_to_csv('Ore', 'fandom', orePrices)
 
 
 def official_OSRS_prices_api_scraper():
@@ -189,7 +190,7 @@ def official_OSRS_prices_api_scraper():
         response = get(prices_url, headers=hdr)
         if response:
             break
-        print("API unavailable. Retry in 60s -> " + str(response))
+        print("Official OSRS Prices API unavailable. Retry in 60s -> " + str(response))
         time.sleep(60)
     try:
         json_data = json.loads(response.text)["data"]

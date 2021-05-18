@@ -1,0 +1,1 @@
+Fandom data and prices data all collected in the data folder... I'll write more on this later.
