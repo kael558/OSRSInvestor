@@ -15,7 +15,6 @@ def log(msg):
 def get_hourly_timestamp():
     timestamp = time.time()
     timestamp -= timestamp % 3600
-    timestamp *= 1000
     return int(timestamp)
 
 
@@ -119,7 +118,7 @@ def cml_xp_api_scraper():
             print(e)
             print(line)
             exit(0)
-    write_to_csv('XP', '', [get_hourly_timestamp()] + list(xp_averages.values()))
+    write_to_csv('XP', 'CML', [get_hourly_timestamp()] + list(xp_averages.values()))
 
 
 def fandom_prices_api_scraper():
@@ -259,8 +258,8 @@ def official_OSRS_prices_api_scraper():
 cml_xp_api_scraper()
 log("Collected XP data.")
 
-fandom_prices_api_scraper()
-log("Collected fandom prices data.")
+#fandom_prices_api_scraper()
+#log("Collected fandom prices data.")
 
-official_OSRS_prices_api_scraper()
-log("Collected prices data.")
+#official_OSRS_prices_api_scraper()
+#log("Collected prices data.")
