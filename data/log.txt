@@ -1135,3 +1135,4 @@
 2021-05-16 16:03:22.984922 -> Prices API currently unavailable for item ID: 5301. Retry in 20s -> <Response [504]>
 2021-05-16 16:04:08.107597 -> Finished parsing all data
 2021-05-16 16:04:08.123203 -> Finished writing all data
+2021-05-18 16:01 -> Collected XP data.

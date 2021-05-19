@@ -19,13 +19,8 @@ def get_hourly_timestamp():
 
 
 hdr = {
-    'User-Agent': 'prices_for_ml_project @kael',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'Referer': 'https://github.com/kael558/OSRSInvestor',
-    'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
-    'Accept-Encoding': 'none',
-    'Accept-Language': 'en-US,en;q=0.8',
-    'Connection': 'keep-alive'}
+    'User-Agent': 'prices_for_ml_project @kael'
+}
 
 
 def write_to_csv(foldername, datatype, data):
@@ -258,8 +253,8 @@ def official_OSRS_prices_api_scraper():
 cml_xp_api_scraper()
 log("Collected XP data.")
 
-#fandom_prices_api_scraper()
-#log("Collected fandom prices data.")
+fandom_prices_api_scraper()
+log("Collected fandom prices data.")
 
-#official_OSRS_prices_api_scraper()
-#log("Collected prices data.")
+official_OSRS_prices_api_scraper()
+log("Collected prices data.")
