@@ -3,6 +3,7 @@ import csv
 from requests import get
 import time
 import json
+import os
 
 
 # inclusive indicies
@@ -26,8 +27,9 @@ def read_csv(filename):
     with open('data/{}_data.csv'.format(filename), mode='r', newline='') as file:
         reader = csv.reader(file, delimiter=',')
         for i, entry in enumerate(reader):
-            if i > 0:
-                print(int(float(entry[0])))
+            if i == 0:
+                pass
+                # print(int(float(entry[0])))
 
                 # dt = datetime.fromtimestamp(float(entry[0]))
                 # print(str(i) + ': ' + dt.strftime('%Y-%m-%d %H:%M:%S.%f'))
@@ -36,6 +38,8 @@ def read_csv(filename):
 '''
 Replace existing prices data (obtained from fandom api) with official osrs wiki prices data 
 '''
+
+
 def fix_old_prices():
     hdr = {
         'User-Agent': 'one time verifying prices i have from fandom api @kael',
@@ -193,6 +197,32 @@ def fix_old_prices():
                 seed_low_vol_writer.writerow(seed_low_price_vol)
 
 
+def replace_all_item_names_with_lower_case_letters():
+    item_categories = ["Log", "Ore", "Rune", "Seed"]
+    file_types = ["avg_price", "fandom", "high_price", "high_vol", "low_price", "low_vol"]
+
+    all_data_files = [item_category + "/" + item_category + "_" + file_type
+                      for item_category in item_categories
+                      for file_type in file_types]
+
+    for data_file in all_data_files:
+        file = 'data/{}_data.csv'.format(data_file)
+        upd_file = 'data/{}_updated_data.csv'.format(data_file)
+
+        with open(file, 'r') as r, \
+                open(upd_file, 'w', newline='') as w:
+            reader = csv.reader(r, delimiter=',')
+            writer = csv.writer(w, delimiter=',')
+            for i, entry in enumerate(reader):
+                if i == 0:
+                    entry = [x.lower() for x in entry]
+                writer.writerow(entry)
+        os.remove(file)
+        os.rename(upd_file, file)
+
+
+replace_all_item_names_with_lower_case_letters()
+
 
 def replace_time_stamps_with_closest_hour(filename):
     with open('data/{}_data.csv'.format(filename), 'r') as r, \
@@ -206,7 +236,5 @@ def replace_time_stamps_with_closest_hour(filename):
                 timestamp -= timestamp % 3600
                 entry[0] = timestamp
             writer.writerow(entry)
-
-
 
 # replace_time_stamps_with_closest_hour('XP/XP')
