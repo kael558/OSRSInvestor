@@ -1,94 +1,3 @@
-2021-03-16 16:00:01.448530 -> Attempting to connect...
-2021-03-16 16:00:01.700403 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:00:21.953552 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:00:42.188924 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:01:02.401906 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:01:22.618034 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:01:42.837647 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:02:03.088340 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:02:23.311481 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:02:43.572305 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:03:03.808113 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:03:24.035229 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:03:44.232947 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:04:04.717031 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:04:24.913986 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:04:45.159452 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:05:05.407238 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:05:25.624999 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:05:45.812436 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:06:06.069928 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:06:26.268260 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:06:46.510660 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:07:06.747277 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:07:27.004319 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:07:47.207420 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:08:07.452980 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:08:27.697748 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:08:47.906052 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:09:09.067946 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:09:29.253037 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:09:49.497489 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:10:09.742615 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:10:29.961223 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:10:50.182707 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:11:10.404024 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:11:30.620262 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:11:50.823664 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:12:11.027562 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:12:31.231046 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:12:51.482874 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:13:11.690920 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:13:31.890420 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:13:52.088609 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:14:12.304774 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:14:32.540138 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:14:52.757536 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:15:13.041632 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:15:33.239596 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:15:53.441116 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:16:13.658572 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:16:33.898477 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:16:54.196091 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:17:14.427339 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:17:34.646643 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:17:54.882088 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:18:15.077578 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:18:35.285822 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-16 16:19:42.404251 -> Successfully pulled data
-2021-03-16 16:22:03.579243 -> Finished parsing all data
-2021-03-16 16:22:03.579243 -> Finished writing all data
-2021-03-17 16:00:01.626247 -> Attempting to connect...
-2021-03-17 16:01:41.840092 -> API currently unavailable. Trying again in 20s -> <Response [524]>
-2021-03-17 16:02:02.056249 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:02:22.266571 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:02:42.473521 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:03:02.737948 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:03:22.974185 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:03:43.367416 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:04:03.599527 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:04:23.781689 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:04:43.960440 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:05:04.218859 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:05:24.413842 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:05:44.647088 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:06:04.869604 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:06:25.041635 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:06:45.250057 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:07:05.478753 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:07:25.696753 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:07:45.893920 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:08:06.112478 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:08:26.343636 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:08:46.561511 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:09:06.747740 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:09:26.938872 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:09:47.128257 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:10:07.365387 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:10:27.811503 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:10:48.014663 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:11:08.228618 -> API currently unavailable. Trying again in 20s -> <Response [500]>
-2021-03-17 16:11:28.416768 -> API currently unavailable. Trying again in 20s -> <Response [500]>
 2021-03-17 16:11:48.607277 -> API currently unavailable. Trying again in 20s -> <Response [500]>
 2021-03-17 16:12:08.834701 -> API currently unavailable. Trying again in 20s -> <Response [500]>
 2021-03-17 16:12:29.042390 -> API currently unavailable. Trying again in 20s -> <Response [500]>
@@ -1136,3 +1045,6 @@
 2021-05-16 16:04:08.107597 -> Finished parsing all data
 2021-05-16 16:04:08.123203 -> Finished writing all data
 2021-05-18 16:01 -> Collected XP data.
+2021-05-19 16:00 -> Collected XP data.
+2021-05-19 16:01 -> Collected fandom prices data.
+2021-05-19 16:01 -> Collected prices data.

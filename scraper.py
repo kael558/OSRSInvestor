@@ -250,11 +250,12 @@ def official_OSRS_prices_api_scraper():
         exit(0)
 
 
-cml_xp_api_scraper()
-log("Collected XP data.")
+if __name__ == "__main__":
+    cml_xp_api_scraper()
+    log("Collected XP data.")
 
-fandom_prices_api_scraper()
-log("Collected fandom prices data.")
+    fandom_prices_api_scraper()
+    log("Collected fandom prices data.")
 
-official_OSRS_prices_api_scraper()
-log("Collected prices data.")
+    official_OSRS_prices_api_scraper()
+    log("Collected prices data.")
