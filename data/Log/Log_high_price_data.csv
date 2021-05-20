@@ -1,4 +1,4 @@
-timestamp,Logs,Magic_logs,Yew_logs,Maple_logs,Willow_logs,Oak_logs
+timestamp,logs,magic_logs,yew_logs,maple_logs,willow_logs,oak_logs
 1615924800,75,1008,234,10,17,49
 1616011200,74,1015,236,9,17,49
 1616097600,72,1016,237,9,17,49
@@ -61,5 +61,6 @@ timestamp,Logs,Magic_logs,Yew_logs,Maple_logs,Willow_logs,Oak_logs
 1621022400,18,1020,239,14,19,77
 1621108800,40,1009,238,14,19,71
 1621195200,38,1017,236,14,18,73
+1621281600,38,1017,236,14,18,73
 1621368000,39,1021,235,14,19,72
 1621454400,39,1030,232,15,19,69

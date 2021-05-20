@@ -1,4 +1,4 @@
-timestamp,Fire_rune,Water_rune,Air_rune,Earth_rune,Mind_rune,Body_rune,Death_rune,Nature_rune,Chaos_rune,Law_rune,Cosmic_rune,Blood_rune,Soul_rune
+timestamp,fire_rune,water_rune,air_rune,earth_rune,mind_rune,body_rune,death_rune,nature_rune,chaos_rune,law_rune,cosmic_rune,blood_rune,soul_rune
 1615924800,5,5,5,5,3,5,206,194,43,145,161,393,144
 1616011200,5,4,5,5,3,6,203,193,47,146,161,389,140
 1616097600,5,5,5,4,4,5,203,187,48,144,156,390,142
@@ -61,5 +61,6 @@ timestamp,Fire_rune,Water_rune,Air_rune,Earth_rune,Mind_rune,Body_rune,Death_run
 1621022400,5,5,5,4,4,5,197,171,45,120,113,339,143
 1621108800,5,4,5,5,3,5,200,171,48,118,122,340,143
 1621195200,5,5,5,5,4,6,202,171,46,114,118,339,132
+1621281600,5,5,5,5,4,6,202,171,46,114,118,339,132
 1621368000,5,5,5,5,3,6,198,168,43,119,109,338,140
 1621454400,5,5,5,4,2,6,198,169,43,119,108,340,145

@@ -3,6 +3,7 @@ import csv
 from requests import get
 import time
 import json
+import os
 
 
 # inclusive indicies
@@ -25,17 +26,26 @@ def remove_entries(filename, start_index, end_index):
 def read_csv(filename):
     with open('data/{}_data.csv'.format(filename), mode='r', newline='') as file:
         reader = csv.reader(file, delimiter=',')
+        prev = None
         for i, entry in enumerate(reader):
             if i > 0:
-                print(int(float(entry[0])))
+                dt = datetime.fromtimestamp(int(entry[0]))
+                if prev is not None:
+                    total_seconds = (dt - prev).total_seconds()
+                    days = int(divmod(total_seconds, 86400)[0])
+                    if days > 1:
+                        new_entry = entry.copy()
+                        new_entry[0] = str(int(prev.timestamp() + 86400))
 
-                # dt = datetime.fromtimestamp(float(entry[0]))
-                # print(str(i) + ': ' + dt.strftime('%Y-%m-%d %H:%M:%S.%f'))
+                prev = dt
 
 
+#read_csv('Log/Log_avg_price')
 '''
 Replace existing prices data (obtained from fandom api) with official osrs wiki prices data 
 '''
+
+
 def fix_old_prices():
     hdr = {
         'User-Agent': 'one time verifying prices i have from fandom api @kael',
@@ -193,11 +203,81 @@ def fix_old_prices():
                 seed_low_vol_writer.writerow(seed_low_price_vol)
 
 
+def forward_fill():
+    item_categories = ["Log", "Ore", "Rune", "Seed"]
+    file_types = ["avg_price", "fandom", "high_price", "high_vol", "low_price", "low_vol"]
 
-def replace_time_stamps_with_closest_hour(filename):
-    with open('data/{}_data.csv'.format(filename), 'r') as r, \
-            open('data/{}_fixed_timestamps_data.csv'.format(filename), 'w', newline='') as w:
+    all_data_files = [item_category + "/" + item_category + "_" + file_type
+                      for item_category in item_categories
+                      for file_type in file_types]
 
+    data_cleaning_log_file = open('data/data_cleaning_log.txt', 'a')
+
+    for data_file in all_data_files:
+        file = 'data/{}_data.csv'.format(data_file)
+        upd_file = 'data/{}_updated_data.csv'.format(data_file)
+        seconds_in_day = 86400
+        with open(file, 'r') as r, \
+                open(upd_file, 'w', newline='') as w:
+            reader = csv.reader(r, delimiter=',')
+            writer = csv.writer(w, delimiter=',')
+            prev = None
+            for i, entry in enumerate(reader):
+                if i > 0:
+                    dt = datetime.fromtimestamp(int(entry[0]))
+                    if prev is not None:
+                        days_in_between = int(divmod((dt - prev).total_seconds(), seconds_in_day)[0])
+                        if days_in_between > 1:
+                            prev_entry[0] = str(int(prev.timestamp() + seconds_in_day))
+                            data_cleaning_log_file.write("Forward Filled - " + data_file + " - "
+                                                         + datetime
+                                                         .fromtimestamp(int(prev_entry[0])).strftime("%d %b %Y, %H:%M")
+                                                         + "\n")
+                            writer.writerow(prev_entry)
+                    prev_entry = entry
+                    prev = dt
+                writer.writerow(entry)
+        os.remove(file)
+        os.rename(upd_file, file)
+    data_cleaning_log_file.close()
+
+
+forward_fill()
+
+def replace_all_item_names_with_lower_case_letters():
+    item_categories = ["Log", "Ore", "Rune", "Seed"]
+    file_types = ["avg_price", "fandom", "high_price", "high_vol", "low_price", "low_vol"]
+
+
+    all_data_files = [item_category + "/" + item_category + "_" + file_type
+                      for item_category in item_categories
+                      for file_type in file_types]
+
+    for data_file in all_data_files:
+        file = 'data/{}_data.csv'.format(data_file)
+        upd_file = 'data/{}_updated_data.csv'.format(data_file)
+
+        with open(file, 'r') as r, \
+                open(upd_file, 'w', newline='') as w:
+            reader = csv.reader(r, delimiter=',')
+            writer = csv.writer(w, delimiter=',')
+            for i, entry in enumerate(reader):
+                if i == 0:
+                    entry = [x.lower() for x in entry]
+                writer.writerow(entry)
+        os.remove(file)
+        os.rename(upd_file, file)
+
+
+# replace_all_item_names_with_lower_case_letters()
+
+
+def replace_time_stamps_with_closest_hour(data_file):
+    file = 'data/{}_data.csv'.format(data_file)
+    upd_file = 'data/{}_updated_data.csv'.format(data_file)
+
+    with open(file, 'r') as r, \
+            open(upd_file, 'w', newline='') as w:
         reader = csv.reader(r, delimiter=',')
         writer = csv.writer(w, delimiter=',')
         for i, entry in enumerate(reader):
@@ -206,7 +286,5 @@ def replace_time_stamps_with_closest_hour(filename):
                 timestamp -= timestamp % 3600
                 entry[0] = timestamp
             writer.writerow(entry)
-
-
-
-# replace_time_stamps_with_closest_hour('XP/XP')
+    os.remove(file)
+    os.rename(upd_file, file)

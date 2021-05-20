@@ -1,4 +1,4 @@
-timestamp,Copper_ore,Tin_ore,Iron_ore,Silver_ore,Gold_ore,Mithril_ore,Adamantite_ore,Runite_ore
+timestamp,copper_ore,tin_ore,iron_ore,silver_ore,gold_ore,mithril_ore,adamantite_ore,runite_ore
 1615924800,74,88,45,39,161,94,1023,11152
 1616011200,82,86,44,38,162,73,1002,11164
 1616097600,83,76,43,39,153,82,1005,11223
@@ -61,5 +61,6 @@ timestamp,Copper_ore,Tin_ore,Iron_ore,Silver_ore,Gold_ore,Mithril_ore,Adamantite
 1621022400,59,49,38,32,164,81,1073,11326
 1621108800,62,49,38,27,163,80,1105,11392
 1621195200,63,39,41,33,162,79,1080,11352
+1621281600,63,39,41,33,162,79,1080,11352
 1621368000,63,47,40,33,160,78,1019,11225
 1621454400,70,46,43,34,160,80,1003,11238
