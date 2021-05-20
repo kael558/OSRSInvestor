@@ -221,13 +221,15 @@ def replace_all_item_names_with_lower_case_letters():
         os.rename(upd_file, file)
 
 
-replace_all_item_names_with_lower_case_letters()
+#replace_all_item_names_with_lower_case_letters()
 
 
-def replace_time_stamps_with_closest_hour(filename):
-    with open('data/{}_data.csv'.format(filename), 'r') as r, \
-            open('data/{}_fixed_timestamps_data.csv'.format(filename), 'w', newline='') as w:
+def replace_time_stamps_with_closest_hour(data_file):
+    file = 'data/{}_data.csv'.format(data_file)
+    upd_file = 'data/{}_updated_data.csv'.format(data_file)
 
+    with open(file, 'r') as r, \
+            open(upd_file, 'w', newline='') as w:
         reader = csv.reader(r, delimiter=',')
         writer = csv.writer(w, delimiter=',')
         for i, entry in enumerate(reader):
@@ -236,5 +238,10 @@ def replace_time_stamps_with_closest_hour(filename):
                 timestamp -= timestamp % 3600
                 entry[0] = timestamp
             writer.writerow(entry)
+    os.remove(file)
+    os.rename(upd_file, file)
 
-# replace_time_stamps_with_closest_hour('XP/XP')
+
+replace_time_stamps_with_closest_hour('Ore/Ore_fandom')
+replace_time_stamps_with_closest_hour('Rune/Rune_fandom')
+replace_time_stamps_with_closest_hour('Seed/Seed_fandom')
