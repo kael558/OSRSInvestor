@@ -1048,3 +1048,56 @@
 2021-05-19 16:00 -> Collected XP data.
 2021-05-19 16:01 -> Collected fandom prices data.
 2021-05-19 16:01 -> Collected prices data.
+2021-05-20 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:04 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:05 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:06 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:07 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:08 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:09 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:10 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:11 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:12 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:13 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:14 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:15 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:16 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:17 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-20 16:18 -> Collected XP data.
+2021-05-20 16:18 -> Fandom Prices API currently unavailable for item ID: 554. Retry in 20s -> <Response [504]>
+2021-05-20 16:19 -> Fandom Prices API currently unavailable for item ID: 451. Retry in 20s -> <Response [504]>
+2021-05-20 16:20 -> Collected fandom prices data.
+2021-05-20 16:20 -> Collected prices data.
+2021-05-21 16:01 -> Collected XP data.
+2021-05-21 16:02 -> Collected fandom prices data.
+2021-05-21 16:02 -> Collected prices data.
+2021-05-22 16:00 -> Collected XP data.
+2021-05-22 16:01 -> Fandom Prices API currently unavailable for item ID: 5098. Retry in 20s -> <Response [504]>
+2021-05-22 16:02 -> Collected fandom prices data.
+2021-05-22 16:02 -> Collected prices data.
+2021-05-23 16:00 -> Collected XP data.
+2021-05-23 16:01 -> Collected fandom prices data.
+2021-05-23 16:01 -> Collected prices data.
+2021-05-24 16:01 -> Collected XP data.
+2021-05-24 16:02 -> Fandom Prices API currently unavailable for item ID: 5309. Retry in 20s -> <Response [504]>
+2021-05-24 16:03 -> Collected fandom prices data.
+2021-05-24 16:03 -> Collected prices data.
+2021-05-25 16:00 -> Collected XP data.
+2021-05-25 16:01 -> Collected fandom prices data.
+2021-05-25 16:01 -> Collected prices data.
+2021-05-26 16:00 -> Collected XP data.
+2021-05-26 16:01 -> Fandom Prices API currently unavailable for item ID: 559. Retry in 20s -> <Response [504]>
+2021-05-26 16:02 -> Collected fandom prices data.
+2021-05-26 16:02 -> Collected prices data.
+2021-05-27 16:01 -> Collected XP data.
+2021-05-27 16:02 -> Collected fandom prices data.
+2021-05-27 16:02 -> Collected prices data.
+2021-05-28 16:00 -> Collected XP data.
+2021-05-28 16:01 -> Collected fandom prices data.
+2021-05-28 16:01 -> Collected prices data.
+2021-05-29 16:00 -> Collected XP data.
+2021-05-29 16:01 -> Collected fandom prices data.
+2021-05-29 16:01 -> Collected prices data.
