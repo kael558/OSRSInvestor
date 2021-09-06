@@ -1101,3 +1101,376 @@
 2021-05-29 16:00 -> Collected XP data.
 2021-05-29 16:01 -> Collected fandom prices data.
 2021-05-29 16:01 -> Collected prices data.
+2021-05-30 16:00 -> Collected XP data.
+2021-05-30 16:01 -> Collected fandom prices data.
+2021-05-30 16:01 -> Collected prices data.
+2021-05-31 16:01 -> Collected XP data.
+2021-05-31 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-31 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-05-31 16:03 -> Collected totalgains XP data.
+2021-05-31 16:04 -> Fandom Prices API currently unavailable for item ID: 5309. Retry in 20s -> <Response [504]>
+2021-05-31 16:05 -> Collected fandom prices data.
+2021-05-31 16:05 -> Collected prices data.
+2021-06-01 16:01 -> Collected XP data.
+2021-06-01 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-01 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-01 16:03 -> Collected totalgains XP data.
+2021-06-01 16:03 -> Fandom Prices API currently unavailable for item ID: 1519. Retry in 20s -> <Response [504]>
+2021-06-01 16:05 -> Collected fandom prices data.
+2021-06-01 16:05 -> Collected prices data.
+2021-06-02 16:01 -> Collected XP data.
+2021-06-02 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-02 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-02 16:03 -> Collected totalgains XP data.
+2021-06-02 16:04 -> Collected fandom prices data.
+2021-06-02 16:04 -> Collected prices data.
+2021-06-03 16:00 -> Collected XP data.
+2021-06-03 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-03 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-03 16:02 -> Collected totalgains XP data.
+2021-06-03 16:03 -> Collected fandom prices data.
+2021-06-03 16:03 -> Collected prices data.
+2021-06-04 16:01 -> Collected XP data.
+2021-06-04 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-04 16:02 -> Collected totalgains XP data.
+2021-06-04 16:03 -> Collected fandom prices data.
+2021-06-04 16:03 -> Collected prices data.
+2021-06-05 16:01 -> Collected XP data.
+2021-06-05 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-05 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-05 16:03 -> Collected totalgains XP data.
+2021-06-05 16:04 -> Collected fandom prices data.
+2021-06-05 16:04 -> Collected prices data.
+2021-06-06 16:00 -> Collected XP data.
+2021-06-06 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-06 16:02 -> Collected totalgains XP data.
+2021-06-06 16:03 -> Collected fandom prices data.
+2021-06-06 16:03 -> Collected prices data.
+2021-06-07 16:01 -> Collected XP data.
+2021-06-07 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-07 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-07 16:03 -> Collected totalgains XP data.
+2021-06-07 16:04 -> Collected fandom prices data.
+2021-06-07 16:04 -> Collected prices data.
+2021-06-08 16:00 -> Collected XP data.
+2021-06-08 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-08 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-08 16:03 -> Collected totalgains XP data.
+2021-06-08 16:03 -> Fandom Prices API currently unavailable for item ID: 5283. Retry in 20s -> <Response [504]>
+2021-06-08 16:04 -> Collected fandom prices data.
+2021-06-08 16:04 -> Collected prices data.
+2021-06-09 16:01 -> Collected XP data.
+2021-06-09 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-09 16:02 -> Collected totalgains XP data.
+2021-06-09 16:03 -> Collected fandom prices data.
+2021-06-09 16:03 -> Collected prices data.
+2021-06-10 16:01 -> Collected XP data.
+2021-06-10 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-10 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-10 16:03 -> Collected totalgains XP data.
+2021-06-10 16:04 -> Collected fandom prices data.
+2021-06-10 16:04 -> Collected prices data.
+2021-06-11 16:01 -> Collected XP data.
+2021-06-11 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-11 16:02 -> Collected totalgains XP data.
+2021-06-11 16:03 -> Collected fandom prices data.
+2021-06-11 16:03 -> Collected prices data.
+2021-06-12 16:01 -> Collected XP data.
+2021-06-12 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-12 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-12 16:03 -> Collected totalgains XP data.
+2021-06-12 16:04 -> Collected fandom prices data.
+2021-06-12 16:04 -> Collected prices data.
+2021-06-13 16:01 -> Collected XP data.
+2021-06-13 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-13 16:02 -> Collected totalgains XP data.
+2021-06-13 16:03 -> Collected fandom prices data.
+2021-06-13 16:03 -> Collected prices data.
+2021-06-14 16:00 -> Collected XP data.
+2021-06-14 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-14 16:02 -> Collected totalgains XP data.
+2021-06-14 16:03 -> Collected fandom prices data.
+2021-06-14 16:03 -> Collected prices data.
+2021-06-15 16:00 -> Collected XP data.
+2021-06-15 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-15 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-15 16:03 -> Collected totalgains XP data.
+2021-06-15 16:03 -> Fandom Prices API currently unavailable for item ID: 5291. Retry in 20s -> <Response [504]>
+2021-06-15 16:04 -> Collected fandom prices data.
+2021-06-15 16:04 -> Collected prices data.
+2021-06-16 16:00 -> Collected XP data.
+2021-06-16 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-16 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-16 16:03 -> Collected totalgains XP data.
+2021-06-16 16:04 -> Collected fandom prices data.
+2021-06-16 16:04 -> Collected prices data.
+2021-06-17 16:03 -> Collected XP data.
+2021-06-17 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-17 16:04 -> Collected totalgains XP data.
+2021-06-17 16:05 -> Collected fandom prices data.
+2021-06-17 16:05 -> Collected prices data.
+2021-06-18 16:00 -> Collected XP data.
+2021-06-18 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-18 16:02 -> Collected totalgains XP data.
+2021-06-18 16:03 -> Collected fandom prices data.
+2021-06-18 16:03 -> Collected prices data.
+2021-06-19 16:00 -> Collected XP data.
+2021-06-19 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-19 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-19 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-19 16:04 -> Collected totalgains XP data.
+2021-06-19 16:04 -> Collected fandom prices data.
+2021-06-19 16:04 -> Collected prices data.
+2021-06-20 16:01 -> Collected XP data.
+2021-06-20 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-20 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-20 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-20 16:04 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-20 16:05 -> Collected totalgains XP data.
+2021-06-20 16:06 -> Collected fandom prices data.
+2021-06-20 16:06 -> Collected prices data.
+2021-06-21 16:01 -> Collected XP data.
+2021-06-21 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-21 16:02 -> Collected totalgains XP data.
+2021-06-21 16:03 -> Collected fandom prices data.
+2021-06-21 16:03 -> Collected prices data.
+2021-06-22 16:01 -> Collected XP data.
+2021-06-22 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-22 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-22 16:04 -> Collected totalgains XP data.
+2021-06-22 16:05 -> Collected fandom prices data.
+2021-06-22 16:05 -> Collected prices data.
+2021-06-23 16:01 -> Collected XP data.
+2021-06-23 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-23 16:02 -> Collected totalgains XP data.
+2021-06-23 16:03 -> Collected fandom prices data.
+2021-06-23 16:03 -> Collected prices data.
+2021-06-24 16:01 -> Collected XP data.
+2021-06-24 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-24 16:02 -> Collected totalgains XP data.
+2021-06-24 16:03 -> Collected fandom prices data.
+2021-06-24 16:03 -> Collected prices data.
+2021-06-25 16:01 -> Collected XP data.
+2021-06-25 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-25 16:02 -> Collected totalgains XP data.
+2021-06-25 16:03 -> Collected fandom prices data.
+2021-06-25 16:03 -> Collected prices data.
+2021-06-26 16:00 -> Collected XP data.
+2021-06-26 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-26 16:02 -> Collected totalgains XP data.
+2021-06-26 16:02 -> Collected fandom prices data.
+2021-06-26 16:03 -> Collected prices data.
+2021-06-27 16:00 -> Collected XP data.
+2021-06-27 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-27 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-27 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-27 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-27 16:04 -> Collected totalgains XP data.
+2021-06-27 16:05 -> Collected fandom prices data.
+2021-06-27 16:05 -> Collected prices data.
+2021-06-28 16:00 -> Collected XP data.
+2021-06-28 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-28 16:02 -> Collected totalgains XP data.
+2021-06-28 16:02 -> Collected fandom prices data.
+2021-06-28 16:02 -> Collected prices data.
+2021-06-29 16:00 -> Collected XP data.
+2021-06-29 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-29 16:02 -> Collected totalgains XP data.
+2021-06-29 16:02 -> Fandom Prices API currently unavailable for item ID: 5286. Retry in 20s -> <Response [504]>
+2021-06-29 16:03 -> Collected fandom prices data.
+2021-06-29 16:03 -> Collected prices data.
+2021-06-30 16:01 -> Collected XP data.
+2021-06-30 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-06-30 16:02 -> Collected totalgains XP data.
+2021-06-30 16:03 -> Collected fandom prices data.
+2021-06-30 16:03 -> Collected prices data.
+2021-07-01 16:01 -> Collected XP data.
+2021-07-01 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-01 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-01 16:03 -> Collected totalgains XP data.
+2021-07-01 16:03 -> Collected fandom prices data.
+2021-07-01 16:03 -> Collected prices data.
+2021-07-02 16:01 -> Collected XP data.
+2021-07-02 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-02 16:02 -> Collected totalgains XP data.
+2021-07-02 16:03 -> Collected fandom prices data.
+2021-07-02 16:03 -> Collected prices data.
+2021-07-03 16:01 -> Collected XP data.
+2021-07-03 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-03 16:02 -> Collected totalgains XP data.
+2021-07-03 16:03 -> Collected fandom prices data.
+2021-07-03 16:03 -> Collected prices data.
+2021-07-04 16:00 -> Collected XP data.
+2021-07-04 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-04 16:02 -> Collected totalgains XP data.
+2021-07-04 16:03 -> Collected fandom prices data.
+2021-07-04 16:03 -> Collected prices data.
+2021-07-05 16:00 -> Collected XP data.
+2021-07-05 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-05 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-05 16:03 -> Collected totalgains XP data.
+2021-07-05 16:03 -> Collected fandom prices data.
+2021-07-05 16:03 -> Collected prices data.
+2021-07-06 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:04 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:05 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:06 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:07 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:08 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:09 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:10 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:11 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:12 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:13 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:14 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:16 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:17 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:18 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:19 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:20 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:21 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:22 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:23 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:24 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:25 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:26 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-06 16:27 -> Collected XP data.
+2021-07-06 16:27 -> Collected totalgains XP data.
+2021-07-06 16:28 -> Collected fandom prices data.
+2021-07-06 16:28 -> Collected prices data.
+2021-07-07 16:01 -> Collected XP data.
+2021-07-07 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-07 16:02 -> Collected totalgains XP data.
+2021-07-07 16:03 -> Collected fandom prices data.
+2021-07-07 16:03 -> Collected prices data.
+2021-07-08 16:01 -> Collected XP data.
+2021-07-08 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-08 16:02 -> Collected totalgains XP data.
+2021-07-08 16:03 -> Collected fandom prices data.
+2021-07-08 16:03 -> Collected prices data.
+2021-07-09 16:01 -> Collected XP data.
+2021-07-09 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-09 16:02 -> Collected totalgains XP data.
+2021-07-09 16:03 -> Collected fandom prices data.
+2021-07-09 16:03 -> Collected prices data.
+2021-07-12 16:25 -> Collected XP data.
+2021-07-12 16:26 -> Collected totalgains XP data.
+2021-07-12 16:27 -> Collected fandom prices data.
+2021-07-12 16:27 -> Collected prices data.
+2021-07-13 16:01 -> Collected XP data.
+2021-07-13 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-13 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-13 16:03 -> Collected totalgains XP data.
+2021-07-13 16:04 -> Collected fandom prices data.
+no sales
+2021-07-13 16:04 -> Collected prices data.
+2021-07-14 16:01 -> Collected XP data.
+2021-07-14 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-14 16:02 -> Collected totalgains XP data.
+2021-07-14 16:03 -> Collected fandom prices data.
+2021-07-14 16:03 -> Collected prices data.
+2021-07-15 16:00 -> Collected XP data.
+2021-07-15 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-15 16:02 -> Collected totalgains XP data.
+2021-07-15 16:03 -> Collected fandom prices data.
+2021-07-15 16:03 -> Collected prices data.
+2021-07-16 16:03 -> Collected XP data.
+2021-07-16 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-16 16:04 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-16 16:05 -> Collected totalgains XP data.
+2021-07-16 16:06 -> Collected fandom prices data.
+2021-07-16 16:06 -> Collected prices data.
+2021-07-18 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-19 16:01 -> Collected XP data.
+2021-07-19 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-19 16:02 -> Collected totalgains XP data.
+2021-07-19 16:03 -> Collected fandom prices data.
+2021-07-19 16:03 -> Collected prices data.
+2021-07-25 16:01 -> Collected XP data.
+2021-07-25 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-25 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-25 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-25 16:04 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-25 16:05 -> Collected totalgains XP data.
+2021-07-25 16:06 -> Collected fandom prices data.
+2021-07-25 16:06 -> Collected prices data.
+2021-07-27 16:01 -> Collected XP data.
+2021-07-27 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-27 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-27 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-27 16:04 -> Collected totalgains XP data.
+2021-07-27 16:05 -> Collected fandom prices data.
+2021-07-27 16:05 -> Collected prices data.
+2021-07-28 16:01 -> Collected XP data.
+2021-07-28 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-28 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-28 16:03 -> Collected totalgains XP data.
+2021-07-28 16:04 -> Collected fandom prices data.
+2021-07-28 16:04 -> Collected prices data.
+2021-07-31 16:01 -> Collected XP data.
+2021-07-31 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-07-31 16:02 -> Collected totalgains XP data.
+2021-07-31 16:03 -> Collected fandom prices data.
+2021-07-31 16:03 -> Collected prices data.
+2021-08-01 16:01 -> Collected XP data.
+2021-08-01 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-01 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-01 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-01 16:04 -> Collected totalgains XP data.
+2021-08-01 16:05 -> Collected fandom prices data.
+2021-08-01 16:05 -> Collected prices data.
+2021-08-07 16:01 -> Collected XP data.
+2021-08-07 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-07 16:02 -> Collected totalgains XP data.
+2021-08-07 16:03 -> Collected fandom prices data.
+2021-08-07 16:03 -> Collected prices data.
+2021-08-08 16:01 -> Collected XP data.
+2021-08-08 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-08 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-08 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-08 16:04 -> Collected totalgains XP data.
+2021-08-08 16:05 -> Collected fandom prices data.
+2021-08-08 16:05 -> Collected prices data.
+2021-08-09 16:01 -> Collected XP data.
+2021-08-09 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-09 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-09 16:03 -> Collected totalgains XP data.
+2021-08-09 16:04 -> Collected fandom prices data.
+2021-08-09 16:04 -> Collected prices data.
+2021-08-16 16:02 -> Collected XP data.
+2021-08-16 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-16 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-16 16:04 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-16 16:05 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-16 16:06 -> Collected totalgains XP data.
+2021-08-16 16:07 -> Collected fandom prices data.
+2021-08-16 16:07 -> Collected prices data.
+2021-08-21 16:02 -> Collected XP data.
+2021-08-21 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-21 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-21 16:04 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-21 16:05 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-08-21 16:06 -> Collected totalgains XP data.
+2021-08-21 16:07 -> Collected fandom prices data.
+2021-08-21 16:07 -> Collected prices data.
+2021-08-31 21:14 -> Collected XP data.
+2021-08-31 21:14 -> Collected totalgains XP data.
+2021-08-31 21:15 -> Collected fandom prices data.
+2021-08-31 21:15 -> Collected prices data.
+2021-09-03 16:02 -> Collected XP data.
+2021-09-03 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-09-03 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-09-03 16:04 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-09-03 16:05 -> Collected totalgains XP data.
+2021-09-03 16:06 -> Collected fandom prices data.
+2021-09-03 16:06 -> Collected prices data.
+2021-09-04 18:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-09-04 18:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2021-09-04 18:03 -> Collected XP data.
+2021-09-04 18:03 -> Collected totalgains XP data.
+2021-09-04 18:03 -> Collected fandom prices data.
+no sales
+2021-09-04 18:03 -> Collected prices data.

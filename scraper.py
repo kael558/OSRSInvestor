@@ -152,7 +152,7 @@ def cml_xp_api_scraper_v2():
     xp_totals = list(map(int, response.text.strip().replace("\n", "").split("~~")[:-1]))
     xp_filtered = [xp_totals[i] - xp_totals[i + len(skills)] for i in range(len(skills))]
 
-    write_to_csv('XP', 'CML', [get_hourly_timestamp()] + list(xp_filtered))
+    write_to_csv('XP', 'CML_V2', [get_hourly_timestamp()] + list(xp_filtered))
 
 
 def fandom_prices_api_scraper():
@@ -290,8 +290,11 @@ def official_OSRS_prices_api_scraper():
 
 
 if __name__ == "__main__":
-    cml_xp_api_scraper_v2()
+    cml_xp_api_scraper() #XP_CML_data.csv
     log("Collected XP data.")
+
+    cml_xp_api_scraper_v2() #XP_CML_V2_data.csv
+    log("Collected totalgains XP data.")
 
     fandom_prices_api_scraper()
     log("Collected fandom prices data.")
