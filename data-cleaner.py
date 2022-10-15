@@ -40,7 +40,7 @@ def read_csv(filename):
                 prev = dt
 
 
-#read_csv('Log/Log_avg_price')
+read_csv('Log/Log_avg_price')
 '''
 Replace existing prices data (obtained from fandom api) with official osrs wiki prices data 
 '''
@@ -242,7 +242,6 @@ def forward_fill():
     data_cleaning_log_file.close()
 
 
-forward_fill()
 
 def replace_all_item_names_with_lower_case_letters():
     item_categories = ["Log", "Ore", "Rune", "Seed"]
@@ -269,7 +268,6 @@ def replace_all_item_names_with_lower_case_letters():
         os.rename(upd_file, file)
 
 
-# replace_all_item_names_with_lower_case_letters()
 
 
 def replace_time_stamps_with_closest_hour(data_file):
@@ -288,3 +286,4 @@ def replace_time_stamps_with_closest_hour(data_file):
             writer.writerow(entry)
     os.remove(file)
     os.rename(upd_file, file)
+
