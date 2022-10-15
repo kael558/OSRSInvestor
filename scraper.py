@@ -41,9 +41,12 @@ def write_to_csv(foldername, datatype, data):
         writer.writerow(data)
 
 
+
 def cml_xp_api_scraper():
     '''
-    Web scrapes the CML XP websites
+    Getting the top 200 players daily xp in each skill for both ironmen and no filter.
+    Subtracting the ironmen xp from the no filter xp to get xp for non-ironmen players
+    Writing the data to the xp file
     '''
     pages = 10
     skills = ["magic", "fletching", "woodcutting", "firemaking", "construction", "farming", "herblore", "thieving",
@@ -128,6 +131,39 @@ def cml_xp_api_scraper():
             continue
         break
     write_to_csv('XP', 'CML', [get_hourly_timestamp()] + list(xp_averages.values()))
+
+
+def cml_xp_api_scraper_v2():
+    '''
+    Queries the total daily xp gained in each skill for no filter and ironmen
+    Subtracts the ironmen xp from no filter xp to get the xp gained by non-ironmen players
+    Write to file
+    '''
+    skills = ["runecrafting", "magic", "fletching", "woodcutting", "firemaking", "construction", "farming", "herblore",
+              "thieving",
+              "mining", "smithing"]
+
+    allQuery = list(map(lambda s: {"skill": s}, skills))
+    allQuery[0]["type"] = "totalgains"
+    allQuery[0]["timeperiod"] = "day"
+    ironmanQuery = list(map(lambda s: {"skill": s}, skills))
+    ironmanQuery[0]["filter"] = "ironman>0"
+    query = allQuery + ironmanQuery
+
+    base_url = "https://www.crystalmathlabs.com/tracker/api.php?multiquery="
+    xp_url = base_url + str(query).replace('\'', '"').replace(" ", "")
+
+    while True:
+        response = get(xp_url, headers=hdr)
+        if response:
+            break
+        log("CML XP API currently unavailable. Retry in 60s -> " + str(response))
+        time.sleep(60)
+
+    xp_totals = list(map(int, response.text.strip().replace("\n", "").split("~~")[:-1]))
+    xp_filtered = [xp_totals[i] - xp_totals[i + len(skills)] for i in range(len(skills))]
+
+    write_to_csv('XP', 'CML', [get_hourly_timestamp()] + list(xp_filtered))
 
 
 def fandom_prices_api_scraper():
@@ -268,7 +304,7 @@ def official_OSRS_prices_api_scraper():
 
 
 if __name__ == "__main__":
-    cml_xp_api_scraper()
+    cml_xp_api_scraper_v2()
     log("Collected XP data.")
 
     fandom_prices_api_scraper()
@@ -276,3 +312,4 @@ if __name__ == "__main__":
 
     official_OSRS_prices_api_scraper()
     log("Collected prices data.")
+
