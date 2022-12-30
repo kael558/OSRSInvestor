@@ -2,7 +2,8 @@ from requests import get
 import json
 import csv
 import time
-from datetime import datetime
+from datetime import datetime, timezone
+
 
 def log(msg):
     '''
@@ -152,19 +153,23 @@ def cml_xp_api_scraper_v2():
 
     base_url = "https://www.crystalmathlabs.com/tracker/api.php?multiquery="
     xp_url = base_url + str(query).replace('\'', '"').replace(" ", "")
-
     while True:
-        response = get(xp_url, headers=hdr)
-        if response:
-            break
-        log("CML XP API currently unavailable. Retry in 60s -> " + str(response))
-        time.sleep(60)
+        while True:
+            response = get(xp_url, headers=hdr)
+            if response:
+                break
+            log("CML XP API currently unavailable. Retry in 60s -> " + str(response))
+            time.sleep(60)
 
-    xp_totals = list(map(int, response.text.strip().replace("\n", "").split("~~")[:-1]))
-    xp_filtered = [xp_totals[i] - xp_totals[i + len(skills)] for i in range(len(skills))]
-
-    write_to_csv('XP', 'CML', [get_hourly_timestamp()] + list(xp_filtered))
-
+        try:
+            xp_totals = list(map(int, response.text.strip().replace("\n", "").split("~~")[:-1]))
+            xp_filtered = [xp_totals[i] - xp_totals[i + len(skills)] for i in range(len(skills))]
+            write_to_csv('XP', 'CML', [get_hourly_timestamp()] + list(xp_filtered))
+        except Exception as e:
+            log("Error parsing CML data. Retry in 60s  -> " + str(e))
+            time.sleep(60)
+            continue
+        break
 
 def fandom_prices_api_scraper():
     # Item IDs
@@ -205,6 +210,72 @@ def fandom_prices_api_scraper():
     write_to_csv('Log', 'fandom', logPrices)
     write_to_csv('Seed', 'fandom', seedPrices)
     write_to_csv('Ore', 'fandom', orePrices)
+
+
+def official_OSRS_prices_api_historical_scraper():
+    """
+    INSTANT BUY - high (people selling that item)
+    person A sells item.
+    person B buys item.
+
+    INSTANT SELL - low (people buying that item)
+    person A buys item.
+    person B sells item.
+
+    instant-buy = high
+    instant-sell = low
+    :return:
+    """
+    # Item names
+    item_names = {'Body rune', 'Lava rune', 'Soul rune', 'Cosmic rune', 'Law rune', 'Nature rune', 'Mind rune',
+                  'Chaos rune', 'Blood rune', 'Death rune', 'Feather', 'Bow string', 'Headless arrow', 'Yew logs',
+                    'Magic logs', 'Maple logs', 'Willow logs', 'Redwood logs', 'Teak logs', 'Steel nails', 'Oak plank',
+                    'Teak plank', 'Mahogany plank', 'Magic seed', 'Dragonfruit tree seed', 'Mahogany seed', 'Redwood tree seed',
+                    'Limpwurt root', 'Snape grass', 'Mort myre fungus', 'Torstol', 'Potato cactus', 'Crushed nest',
+                    'Volcanic ash', 'Blood shard', 'Enhanced crystal teleport seed', 'Iron ore',  'Iron bar',
+                    'Steel bar', 'Mithril bar', 'Adamantite bar', 'Runite bar', 'Gold bar'}
+    item_names = {'Redwood tree seed'}
+    while True:
+        url = 'https://prices.runescape.wiki/api/v1/osrs/mapping'
+        response = get(url, headers=hdr)
+        if response:
+            break
+        print("OSRS Wiki API currently unavailable. Retry in 60s -> " + str(response))
+        time.sleep(60)
+    all_items = json.loads(response.text)
+    name_to_id = {o['name']:o['id'] for o in all_items if o['name'] in item_names}
+
+    for item_name in item_names:
+        if item_name not in name_to_id:
+            print("Item not found: " + item_name)
+            continue
+        item_id = name_to_id[item_name]
+
+        with open(f"C:/Users/Rahel/PycharmProjects/OSRSInvestor/data/Items/{item_name}.csv", mode='a',
+                  newline='') as file:
+            url = f'https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=6h&id={item_id}'
+            writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            writer.writerow(['timestamp', 'avgHighPrice', 'avgLowPrice', 'highPriceVolume', 'lowPriceVolume'])
+            while True:
+                response = get(url, headers=hdr)
+                if response:
+                    break
+                print("Prices API currently unavailable. Retry in 60s -> " + str(response))
+                time.sleep(60)
+
+            try:
+                json_data = json.loads(response.text)["data"]
+                #print(json_data)
+                for datapoint in json_data:
+                    dt_object = datetime.fromtimestamp(datapoint["timestamp"], tz=timezone.utc)
+                    #print(dt_object)
+                    if dt_object.hour == 12:
+                        row = [int(datapoint["timestamp"]), datapoint["avgHighPrice"],
+                               datapoint["avgLowPrice"], datapoint["highPriceVolume"], datapoint["lowPriceVolume"]]
+                        writer.writerow(row)
+            except Exception as e:
+                print(f"Error parsing prices for item: {id}. Retry in 60s  -> " + str(e))
+            file.close()
 
 
 def official_OSRS_prices_api_scraper():
@@ -304,12 +375,14 @@ def official_OSRS_prices_api_scraper():
 
 
 if __name__ == "__main__":
-    cml_xp_api_scraper_v2()
+    '''cml_xp_api_scraper_v2()
     log("Collected XP data.")
 
     fandom_prices_api_scraper()
     log("Collected fandom prices data.")
 
     official_OSRS_prices_api_scraper()
-    log("Collected prices data.")
+    log("Collected prices data.")'''
 
+    official_OSRS_prices_api_historical_scraper()
+    log("Collected prices data.")

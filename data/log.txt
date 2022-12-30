@@ -2022,3 +2022,179 @@ no sales
 2022-10-14 16:00 -> Collected XP data.
 2022-10-14 16:01 -> Collected fandom prices data.
 2022-10-14 16:01 -> Collected prices data.
+2022-10-15 16:00 -> Collected XP data.
+2022-10-15 16:01 -> Collected fandom prices data.
+2022-10-15 16:01 -> Collected prices data.
+2022-10-16 16:00 -> Collected XP data.
+2022-10-16 16:01 -> Collected fandom prices data.
+2022-10-16 16:01 -> Collected prices data.
+2022-10-17 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:04 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:05 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:06 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:07 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:08 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:09 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:10 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:11 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:12 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:13 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:14 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:15 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:16 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:17 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:18 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:19 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:20 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:21 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:22 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:23 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:24 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:25 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:26 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:27 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:28 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:29 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:30 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:31 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:32 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:33 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:34 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-17 16:35 -> Collected XP data.
+2022-10-17 16:36 -> Collected fandom prices data.
+2022-10-17 16:36 -> Collected prices data.
+2022-10-18 16:28 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:29 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:30 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:31 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:32 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:33 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:34 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:35 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:36 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:37 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:38 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:39 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:40 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:41 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:42 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:43 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:45 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:46 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:47 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:48 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:49 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:50 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:51 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:52 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:53 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:54 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:55 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:56 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:57 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:58 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 16:59 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:02 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-18 17:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:04 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:05 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:06 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:07 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:08 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:09 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:10 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:11 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:12 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:14 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:15 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:16 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:17 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:18 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:19 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:20 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:21 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:22 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:23 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:24 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:26 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:27 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:28 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:29 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:31 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-18 17:32 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:33 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:34 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:35 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:36 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:37 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:38 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:39 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:40 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:41 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:42 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:43 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:44 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:45 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:46 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:47 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:48 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:49 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:50 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:51 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:52 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:53 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:54 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:55 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:56 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:57 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:58 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 17:59 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 18:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 18:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-18 18:02 -> Collected XP data.
+2022-10-18 18:03 -> Collected fandom prices data.
+2022-10-18 18:03 -> Collected prices data.
+2022-10-20 16:00 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:01 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-20 16:03 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-20 16:04 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:06 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:07 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:09 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-20 16:10 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:12 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:13 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-20 16:16 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:17 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:18 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:19 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-20 16:21 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:22 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-20 16:24 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-20 16:25 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:26 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-20 16:29 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:31 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-20 16:32 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-20 16:33 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:35 -> CML XP API currently unavailable. Retry in 60s -> <Response [522]>
+2022-10-20 16:36 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:37 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:38 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:39 -> CML XP API currently unavailable. Retry in 60s -> <Response [500]>
+2022-10-20 16:40 -> Collected XP data.
+2022-10-20 16:40 -> Collected fandom prices data.
+2022-10-20 16:40 -> Collected prices data.
+2022-10-22 16:00 -> Collected XP data.
+2022-10-22 16:00 -> Collected fandom prices data.
+2022-10-22 16:00 -> Collected prices data.
+2022-10-23 16:00 -> Collected XP data.
+2022-10-23 16:00 -> Collected fandom prices data.
+2022-10-23 16:00 -> Collected prices data.
+2022-10-24 16:00 -> Collected XP data.
+2022-10-24 16:01 -> Collected fandom prices data.
+2022-10-24 16:01 -> Collected prices data.
