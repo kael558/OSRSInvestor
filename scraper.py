@@ -234,7 +234,7 @@ def official_OSRS_prices_api_historical_scraper():
                     'Limpwurt root', 'Snape grass', 'Mort myre fungus', 'Torstol', 'Potato cactus', 'Crushed nest',
                     'Volcanic ash', 'Blood shard', 'Enhanced crystal teleport seed', 'Iron ore',  'Iron bar',
                     'Steel bar', 'Mithril bar', 'Adamantite bar', 'Runite bar', 'Gold bar'}
-    item_names = {'Redwood tree seed'}
+
     while True:
         url = 'https://prices.runescape.wiki/api/v1/osrs/mapping'
         response = get(url, headers=hdr)
@@ -254,6 +254,7 @@ def official_OSRS_prices_api_historical_scraper():
         with open(f"C:/Users/Rahel/PycharmProjects/OSRSInvestor/data/Items/{item_name}.csv", mode='a',
                   newline='') as file:
             url = f'https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=6h&id={item_id}'
+
             writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             writer.writerow(['timestamp', 'avgHighPrice', 'avgLowPrice', 'highPriceVolume', 'lowPriceVolume'])
             while True:
@@ -265,14 +266,26 @@ def official_OSRS_prices_api_historical_scraper():
 
             try:
                 json_data = json.loads(response.text)["data"]
-                #print(json_data)
+                flag = False # Start data collection only after the first full day of data
                 for datapoint in json_data:
+
                     dt_object = datetime.fromtimestamp(datapoint["timestamp"], tz=timezone.utc)
-                    #print(dt_object)
-                    if dt_object.hour == 12:
-                        row = [int(datapoint["timestamp"]), datapoint["avgHighPrice"],
-                               datapoint["avgLowPrice"], datapoint["highPriceVolume"], datapoint["lowPriceVolume"]]
-                        writer.writerow(row)
+                    if dt_object.hour == 18:
+                        flag = True
+                        avgLowPrice = 0
+                        avgHighPrice = 0
+                        lowPriceVolume = 0
+                        highPriceVolume = 0
+
+                    if flag:
+                        avgLowPrice+= datapoint["avgLowPrice"] if datapoint["avgLowPrice"] else 0
+                        avgHighPrice+= datapoint["avgHighPrice"] if datapoint["avgHighPrice"] else 0
+                        lowPriceVolume+= datapoint["lowPriceVolume"]
+                        highPriceVolume+= datapoint["highPriceVolume"]
+
+                        if dt_object.hour == 12:
+                            writer.writerow([int(datapoint["timestamp"]), avgHighPrice//4, avgLowPrice//4, highPriceVolume, lowPriceVolume])
+
             except Exception as e:
                 print(f"Error parsing prices for item: {id}. Retry in 60s  -> " + str(e))
             file.close()
