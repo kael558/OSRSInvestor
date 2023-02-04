@@ -3,7 +3,6 @@ import boto3
 import csv
 from requests import get
 import time
-from datetime import datetime
 
 s3 = boto3.resource('s3')
 bucket = s3.Bucket('osrs-data-investor')
@@ -76,48 +75,6 @@ def cml_xp_api_scraper():
 
 
 
-
-def fandom_prices_api_scraper():
-
-    # Item IDs
-    logs = [1511, 1513, 1515, 1517, 1519, 1521]
-    ores = [436, 438, 440, 442, 444, 447, 449, 451]
-    runes = list(range(554, 567, 1))
-    seeds = list(range(5096, 5107, 1)) + (list(range(5280, 5317, 1))) + (list(range(5318, 5325, 1)))
-
-    def get_item_prices(item_ID_list):
-        prices = []
-        for item_ID in item_ID_list:
-            item_url = 'http://services.runescape.com/m=itemdb_oldschool/api/graph/{}.json'.format(item_ID)
-            while True:
-                while True:
-                    r = get(item_url, headers=hdr)
-                    if r and r.text != "":
-                        break
-                    print("Fandom Prices API currently unavailable for item ID: " + str(
-                        item_ID) + ". Retry in 20s -> " + str(r))
-                    time.sleep(20)
-
-                try:
-                    json_data = json.loads(r.text)
-                    prices.append(list(json_data["daily"].items())[-1][1])
-                except Exception as e:
-                    print("Error parsing Fandom data for item ID: " + str(item_ID) + ". Retry in 60s  -> " + str(e))
-                    time.sleep(60)
-                    continue
-                break
-
-        return prices
-
-    timestamp = get_hourly_timestamp()
-    log_prices = [timestamp] + get_item_prices(logs)
-    ore_prices = [timestamp] + get_item_prices(ores)
-    rune_prices = [timestamp] + get_item_prices(runes)
-    seed_prices = [timestamp] + get_item_prices(seeds)
-
-    return log_prices, ore_prices, rune_prices, seed_prices
-
-
 def append_entry_to_local_file(data_name: str, data_type: str, entry: list):
     '''
     Writes an entry into a csv file with the name from data name and data type
@@ -152,44 +109,18 @@ def lambda_handler(event, context):
 
         # Scrape data
         xp_data = cml_xp_api_scraper()
-        rune_prices, log_prices, seed_prices, ore_prices = fandom_prices_api_scraper()
 
         # Append data to local files
         append_entry_to_local_file('XP', 'Data', xp_data)
-        append_entry_to_local_file('Rune', 'Prices', rune_prices)
-        append_entry_to_local_file('Log', 'Prices', log_prices)
-        append_entry_to_local_file('Seed', 'Prices', seed_prices)
-        append_entry_to_local_file('Ore', 'Prices', ore_prices)
 
         # Upload local files to bucket
         upload_local_files_to_bucket()
     except Exception as e:
-        print(e)
         return {
             'statusCode': 500,
-            'error': 'Error!',
+            'error': e,
         }
 
     return {
         'statusCode': 200
     }
-
-if __name__ == '__main__':
-    '''import boto3
-    import botocore
-
-    BUCKET_NAME = 'osrs-data-investor'  # replace with your bucket name
-    KEY = 'data/Rune_Prices.csv'  # replace with your object key
-
-    s3 = boto3.resource('s3')
-
-    try:
-        s3.Bucket(BUCKET_NAME).download_file(KEY, '/tmp/Rune_prices.csv')
-    except botocore.exceptions.ClientError as e:
-        if e.response['Error']['Code'] == "404":
-            print(e)
-            print("The object does not exist.")
-        else:
-            raise'''
-
-    print(lambda_handler(0, 0))

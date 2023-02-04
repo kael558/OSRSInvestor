@@ -1,10 +1,15 @@
 ## Project Outline
-Old-School Runescape (OSRS) is a RPG based game where players may level up their skills by gaining experience (XP) and items at the same time. 
-The game also contains a Grand Exchange (GE) that allows players to sell and buy items. 
+Old-School Runescape (OSRS) is a RPG based game where players may level up their skills by gaining 
+experience (XP) and items at the same time. The game also contains a Grand Exchange (GE) that allows 
+players to sell and buy items at a price of their choosing. 
 
-The goal of this project is to use use multivariate time series analysis to predict future prices based on daily XP gained and previous item prices.
+The goal of this project is to use multivariate time series analysis to predict future prices based on 
+daily XP gained and previous item prices.
 
-For example, a player chopping logs will gain experience and logs. They have gained woodcutting XP and then may sell the logs. This will increase the supply and lower the price. If the woodcutting XP gained is significant, then this would be a good time to buy logs.
+For example, a player chopping logs will gain experience and logs. 
+They have gained woodcutting XP and then may sell the logs. 
+This will increase the supply and lower the price. 
+So if the woodcutting XP gained is significant, then this would be a good time to buy logs.
 
 ### Data
 The data is collected from 3 sources:
@@ -15,11 +20,11 @@ The data is collected from 3 sources:
 ### Problems & Solutions
 There are problems with such an analysis:
  - Players may wait variable amounts of time before selling their obtained items.
- - Hardcore players may drop their items instead of selling.
- - Bots that harvest vast amounts of items (thereby lowering prices) will be untracked by the XP tracker.
+ - Hardcore players may drop their items instead of selling (as they do not have access to the GE).
+ - Bots that harvest and sell vast amounts of items (thereby lowering prices) will be untracked by the XP tracker.
 
-The solutions to these problems are:
- - Observing if there is a time period that players wait.
+Some potential solutions to these problems are:
+ - Determining if there is a time period that players wait.
  - Identifying particular skills where botting and hardcore players are less impactful.
 
 ## Acknowledgements
@@ -46,18 +51,17 @@ Just comment the lines at the  bottom of
 
 Run a [scraper.bat](https://github.com/kael558/OSRSInvestor/blob/master/scraper.bat) with windows scheduler. 
 
+Alternatively, you can run the scraper daily with the lambda-scraper.py file using AWS.
+Here is a [post](https://www.linkedin.com/posts/rahelgunaratne_scraping-aws-cloud-activity-6991068904793980928-qH22?utm_source=share&utm_medium=member_desktop) that can help you set it up.
+
 ## File Manifest
-**data folder** - Explanation of each file and the source of data. Prices for logs, ores, runes, seeds and XP data.
- * avg_price from (OOPA) - high and low price weighted with volume
- * fandom_data (FA) - latest item price from fandom api
- * high_price (OOPA) - avg instant buy price over an hour
- * high_vol (OOPA)- the volume of instant buys over an hour
- * low_price (OOPA) - avg instant sell price over an hour
- * low_vol (OOPA)- the volume of instant sell over an hour
- * xp_data (CML) - the xp gained by non-ironman accounts in a skill from the earliest data point and latest data point
+ * data folder - All the data to be used in the project.
+ * Items folder (OOPA) - Contains all the items that have been scraped in 24h intervals since 20th Sept 2022.
+ * XP_Data (CML) - the xp gained by non-ironman accounts in a skill from the earliest data point and latest data point
    for a period of 24 hours. N.B. the player needs to actively click Update to create a data point.
 
 
 ## To do
-* Automate scraper with [AWS Lambda](https://medium.com/@haldis444/use-lambda-to-append-daily-data-to-csv-file-in-s3-2c2813bc33d0)
-* Switch to [Temple OSRS for XP](https://templeosrs.com/)
+* Change to cmd line arguments for running the scraper
+* Collect more data
+* Time series analysis

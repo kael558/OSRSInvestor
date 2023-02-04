@@ -235,6 +235,9 @@ def official_OSRS_prices_api_historical_scraper():
                     'Volcanic ash', 'Blood shard', 'Enhanced crystal teleport seed', 'Iron ore',  'Iron bar',
                     'Steel bar', 'Mithril bar', 'Adamantite bar', 'Runite bar', 'Gold bar'}
 
+    # To update!
+    last_timestamp = 1675512000
+
     while True:
         url = 'https://prices.runescape.wiki/api/v1/osrs/mapping'
         response = get(url, headers=hdr)
@@ -256,7 +259,7 @@ def official_OSRS_prices_api_historical_scraper():
             url = f'https://prices.runescape.wiki/api/v1/osrs/timeseries?timestep=6h&id={item_id}'
 
             writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            writer.writerow(['timestamp', 'avgHighPrice', 'avgLowPrice', 'highPriceVolume', 'lowPriceVolume'])
+            #writer.writerow(['timestamp', 'avgHighPrice', 'avgLowPrice', 'highPriceVolume', 'lowPriceVolume'])
             while True:
                 response = get(url, headers=hdr)
                 if response:
@@ -284,7 +287,8 @@ def official_OSRS_prices_api_historical_scraper():
                         highPriceVolume+= datapoint["highPriceVolume"]
 
                         if dt_object.hour == 12:
-                            writer.writerow([int(datapoint["timestamp"]), avgHighPrice//4, avgLowPrice//4, highPriceVolume, lowPriceVolume])
+                            if datapoint["timestamp"] > last_timestamp:
+                                writer.writerow([int(datapoint["timestamp"]), avgHighPrice//4, avgLowPrice//4, highPriceVolume, lowPriceVolume])
 
             except Exception as e:
                 print(f"Error parsing prices for item: {id}. Retry in 60s  -> " + str(e))
